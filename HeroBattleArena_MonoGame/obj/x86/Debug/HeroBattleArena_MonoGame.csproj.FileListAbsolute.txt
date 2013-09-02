@@ -1,0 +1,9 @@
+g:\users\super snabb disk\documents\visual studio 2010\Projects\HeroBattleArena_MonoGame\HeroBattleArena_MonoGame\bin\WindowsGL\Debug\SDL.dll
+g:\users\super snabb disk\documents\visual studio 2010\Projects\HeroBattleArena_MonoGame\HeroBattleArena_MonoGame\bin\WindowsGL\Debug\HeroBattleArena_MonoGame.exe
+g:\users\super snabb disk\documents\visual studio 2010\Projects\HeroBattleArena_MonoGame\HeroBattleArena_MonoGame\bin\WindowsGL\Debug\HeroBattleArena_MonoGame.pdb
+g:\users\super snabb disk\documents\visual studio 2010\Projects\HeroBattleArena_MonoGame\HeroBattleArena_MonoGame\bin\WindowsGL\Debug\Lidgren.Network.dll
+g:\users\super snabb disk\documents\visual studio 2010\Projects\HeroBattleArena_MonoGame\HeroBattleArena_MonoGame\bin\WindowsGL\Debug\MonoGame.Framework.dll
+g:\users\super snabb disk\documents\visual studio 2010\Projects\HeroBattleArena_MonoGame\HeroBattleArena_MonoGame\bin\WindowsGL\Debug\OpenTK.dll
+g:\users\super snabb disk\documents\visual studio 2010\Projects\HeroBattleArena_MonoGame\HeroBattleArena_MonoGame\bin\WindowsGL\Debug\Tao.Sdl.dll
+g:\users\super snabb disk\documents\visual studio 2010\Projects\HeroBattleArena_MonoGame\HeroBattleArena_MonoGame\obj\x86\Debug\HeroBattleArena_MonoGame.exe
+g:\users\super snabb disk\documents\visual studio 2010\Projects\HeroBattleArena_MonoGame\HeroBattleArena_MonoGame\obj\x86\Debug\HeroBattleArena_MonoGame.pdb

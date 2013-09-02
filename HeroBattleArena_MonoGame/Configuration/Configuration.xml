@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration debug="false">
+  <!-- Game system configs -->
+  <Field tag="System_Fullscreen" value="0" debug_value="0" />
+  <Field tag="System_PlayVideo" value="1" debug_value="1" />
+  <Field tag="System_CapFPS" value="1" debug_value="1" />
+  <Field tag="System_ShowFPS" value="0" debug_value="1" />
+  <Field tag="System_Controller_Is_Xbox" value="1" debug_value="1" />
+  <Field tag="PowerUps" value="1" debug_value="1" />
+  <Field tag="PracticeMode" value="1" debug_value="1" />
+  <Field tag="Soundbug" value="1" debug_value="1" />
+  
+  <!-- Debug information -->
+  <Field tag="Debug_Show_Collision" value="0" debug_value="0" />
+  <Field tag="Debug_Show_Spawns" value="0" debug_value="0" />
+  <Field tag="Debug_Show_Feet_Collision" value="0" debug_value="0" />
+  <Field tag="Debug_Show_Tile_Collision" value="0" debug_value="0" />
+  <Field tag="Debug_Skip_Screens" value="0" debug_value="0" />
+  <Field tag="Debug_DrawGUI" value="1" debug_value="1" />
+  <Field tag="Debug_Skip_LoadTime" value="0" debug_value="0" />
+
+  <!-- General Settings -->
+  <Field tag="General_Respawn_Time" value="5.0" debug_value="5.0" />
+  <Field tag="General_Invincible_Respawn" value="5.0" debug_value="5.0" />
+  <Field tag="General_Invincible_After_Hit" value="0.25" debug_value="0.25" />
+  <Field tag="General_Blink_Speed" value="16.0" debug_value="16.0" />
+  <Field tag="General_NonSolid_Wallhack" value="1" debug_value="1" />
+  <Field tag="General_GameOverWait" value="5.0" debug_value="5.0" />
+  <Field tag="KillingstreakNeededUnlock" value="5.0" debug_value="5.0"/>
+
+  <!-- General Menu Settings -->
+  <Field tag="General_Menu_Port_Speed" value="400.0" debug_value="400.0" />
+  <Field tag="General_Menu_Port_Acc" value="500.0" debug_value="500.0" />
+  <Field tag="General_Menu_Port_Move_Delay" value="1.0" debug_value="1.0" />
+
+  <!-- Options Menu -->
+  <Field tag="Options_Start_Mode" value="0" debug_value="0" />
+  <Field tag="Options_Start_Friendly_Fire" value="0" debug_value="0" />
+  <Field tag="Options_Start_Lives" value="2" debug_value="2" />
+  <Field tag="Options_Start_Frags" value="10" debug_value="10" />
+  <Field tag="Options_Max_Lives" value="15" debug_value="15" />
+  <Field tag="Options_Max_Frags" value="50" debug_value="50" />
+  <Field tag="Options_FragsDifference" value="5" debug_value="5" />
+  <Field tag="Options_LivesDifference" value="1" debug_value="1" />
+
+  <!-- Zombie settings -->
+  <Field tag="Zombie_Spawn_Rate" value="0.15" debug_value="0.15" />
+  <Field tag="Zombie_Attack_Range" value="40" debug_value="45" />
+  <Field tag="Zombie_Follow_Range" value="200" debug_value="200" />
+  <Field tag="Zombie_Max_Follow_Distance" value="300" debug_value="300" />
+  <Field tag="Zombie_Decay_Time" value="1.0" debug_value="10"/>
+  <Field tag="Zombie_Wait_Time" value="0.5" debug_value="0.5"/>
+  <Field tag="Zombie_Invincible_Spawn" value="0" debug_value="0"/>
+  <Field tag="Zombie_Walk_Into_Wall_Time" value="2" debug_value="5"/>
+  <Field tag="Zombie_Ignore_After_Wall" value="2" debug_value="2"/>
+  <Field tag="Zombie_Puke_Time" value="1" debug_value="1"/>
+  <Field tag="Zombie_Chase_Speed_Multiplication" value="2" debug_value="2"/>
+
+  <Field tag="Zombie1_Max_Health" value="25" debug_value="1" />
+  <Field tag="Zombie1_Attack_Damage" value="25" debug_value="10" />
+  <Field tag="Zombie1_Attack_Speed" value="1.5" debug_value="1.5" />
+  <Field tag="Zombie1_Move_Speed" value="55" debug_value="55" />
+
+  <Field tag="Zombie2_Max_Health" value="10" debug_value="1" />
+  <Field tag="Zombie2_Attack_Damage" value="15" debug_value="10" />
+  <Field tag="Zombie2_Attack_Speed" value="5" debug_value="1.5" />
+  <Field tag="Zombie2_Move_Speed" value="150" debug_value="55" />
+
+  <Field tag="Zombie3_Max_Health" value="70" debug_value="1" />
+  <Field tag="Zombie3_Attack_Damage" value="50" debug_value="10" />
+  <Field tag="Zombie3_Attack_Speed" value="1" debug_value="1.5" />
+  <Field tag="Zombie3_Move_Speed" value="20" debug_value="55" />
+  
+  <Field tag="Zombie4_Max_Health" value="40" debug_value="1" />
+  <Field tag="Zombie4_Attack_Damage" value="25" debug_value="10" />
+  <Field tag="Zombie4_Attack_Speed" value="2" debug_value="1.5" />
+  <Field tag="Zombie4_Move_Speed" value="100" debug_value="55" />
+
+  <!-- Playable Zombie settings -->
+  <Field tag="Playable_Zombie_Max_Health" value="100" debug_value="100" />
+  <Field tag="Playable_Zombie_Attack_Damage" value="15" debug_value="15" />
+  <Field tag="Playable_Zombie_Attack_Speed" value="0.5" debug_value="0.5" />
+  <Field tag="Playable_Zombie_Move_Speed" value="150" debug_value="150" />
+  <Field tag="Playable_Zombie_Armor" value="3" debug_value="3" />
+  <Field tag="Playable_Zombie_Max_Mana" value="100" debug_value="100" />
+  <Field tag="Playable_Zombie_Mana_Regen_Rate" value="2.5" debug_value="2.5" />
+
+  <!-- Playable Zombie abilities -->
+  <Field tag="Summon_Zombies_Cooldown" value="1" debug_value="1" />
+  <Field tag="Summon_Zombies_ManaCost" value="1" debug_value="1" />
+  <Field tag="Summon_Zombies_animationSpeed" value="2" debug_value="2" />
+  <Field tag="Summon_Zombies_delay" value="0.2" debug_value="0.2" />
+
+  <Field tag="Summon_Minion_MoveSpeed" value="80" debug_value="80" />
+  <Field tag="Summon_Minion_Health" value="20" debug_value="20" />
+  <Field tag="Summon_Minion_Damage" value="5" debug_value="5" />
+  <Field tag="Summon_Zombies_AttackSpeed" value="1" debug_value="1" />
+  <Field tag="Summon_Zombies_UnborrowSpeed" value="1" debug_value="1" />
+  <Field tag="Summon_Zombies_Max_Number" value="8" debug_value="8" />
+  
+  <Field tag="Dig_Teleport_Cooldown" value="1" debug_value="1" />
+  <Field tag="Dig_Teleport_ManaCost" value="1" debug_value="1" />
+  <Field tag="Dig_Teleport_Down_Animation_Speed" value="0.5" debug_value="0.5" />
+  <Field tag="Dig_Teleport_Up_Animation_Speed" value="0.4" debug_value="0.4" />
+  <Field tag="Dig_Teleport_Time_Underground" value="0.2" debug_value="0.2" />
+  <Field tag="Dig_Teleport_Stun_Victim_Time" value="0.4" debug_value="0.4" />
+  <Field tag="Dig_Teleport_Button_Bias" value="200" debug_value="200" />
+  <Field tag="Dig_Teleport_Dist_To_Victim" value="40" debug_value="40" />
+
+  <Field tag="Vampyric_Cooldown" value="1" debug_value="1" />
+  <Field tag="Vampyric_ManaCost" value="1" debug_value="1" />
+  <Field tag="Vampyric_Impact_Damage" value="0" debug_value="0" />
+  <Field tag="Vampyric_Life_Drain" value="70" debug_value="70" />
+  <Field tag="Vampyric_Stuck_Time" value="2" debug_value="2" />
+  <Field tag="Vampyric_Boost_Speed" value="1000" debug_value="1000" />
+  <Field tag="Vampyric_Slowdown" value="800" debug_value="800" />
+  <Field tag="Vampyric_Stuck_Speed" value="100" debug_value="100" />
+  <Field tag="Vampyric_Drag_Graphic_Delay" value="0.1" debug_value="0.1" />
+  
+  <!-- Arthur settings -->
+  <Field tag="Arthur_Walk_Speed" value="250" debug_value="250" />
+  <Field tag="Arthur_Attack_Damage" value="15" debug_value="15" />
+  <Field tag="Arthur_Attack_Speed" value="0.25" debug_value="0.25" />
+  <Field tag="Arthur_Armor" value="3" debug_value="3" />
+  <Field tag="Arthur_Max_Mana" value="100" debug_value="100" />
+  <Field tag="Arthur_Max_Health" value="150" debug_value="150" />
+  <Field tag="Arthur_Mana_Regen_Rate" value="2.5" debug_value="2.5" />
+  <Field tag="Arthur_Sword_Range" value="43.0" debug_value="43.0" />
+
+  <!-- Arthur's Abilities -->
+  <Field tag="Laser_Sword_Cooldown" value="15.0" debug_value="3.0" />
+  <Field tag="Laser_Sword_ManaCost" value="30.0" debug_value="10.0" />
+  <Field tag="Laser_Sword_ManaDrain" value="9.0" debug_value="1.0" />
+  <Field tag="Laser_Sword_Speed" value="300.0" debug_value="300.0" />
+  <Field tag="Laser_Sword_Damage" value="50.0" debug_value="50.0" />
+
+  <Field tag="Arthur_Counter_Cooldown" value="15.0" debug_value="15.0" />
+  <Field tag="Arthur_Counter_ManaCost" value="30.0" debug_value="30.0" />
+  <Field tag="Arthur_Counter_Time_Invicible" value="0.1" debug_value="0.1" />
+  <Field tag="Arthur_Counter_Buff_Duration" value="2.0" debug_value="2.0" />
+  <Field tag="Arthur_Counter_Teleport_Distance" value="40.0" debug_value="40.0" />
+  <Field tag="Arthur_Counter_Disappear_Animation_Duration" value="0.5" debug_value="0.5" />
+  <Field tag="Arthur_Counter_Appear_Animation_Duration" value="0.5" debug_value="0.5" />
+  <Field tag="Arthur_Counter_Additional_Stun" value="0.5" debug_value="0.5" />
+  <Field tag="Arthur_Counter_Buff_Stuntime" value="1.0" debug_value="1.0" />
+
+  <Field tag="Silence_Shine_CoolDown" value="10.0" debug_value="1.0" />
+  <Field tag="Silence_Shine_ManaCost" value="20.0" debug_value="2.0" />
+  <Field tag="Silence_Shine_Duration" value="2.5" debug_value="5.0" />
+  <Field tag="Silence_Shine_Radius" value="250.0" debug_value="250.0" />
+  
+<!-- Soldier settings -->
+  <Field tag="Solider_Walk_Speed" value="250" debug_value="250" />
+  <Field tag="Solider_Attack_Damage" value="15" debug_value="15" />
+  <Field tag="Solider_Attack_Speed" value="0.15" debug_value="0.15" />
+  <Field tag="Solider_Armor" value="2" debug_value="2" />
+  <Field tag="Solider_Max_Mana" value="100" debug_value="100" />
+  <Field tag="Solider_Mana_Regen_Rate" value="2.5" debug_value="5" />
+  <Field tag="Solider_Max_Health" value="125" debug_value="125" />
+  <Field tag="Solider_Bullet_Speed" value="1500" debug_value="500" />
+  <Field tag="Solider_Bullet_Range" value="1500" debug_value="1500" />
+
+<!-- Sodier's Abilities -->
+  <Field tag="Invisible_Time" value="5" debug_value="50" />
+  <Field tag="Invisible_CoolDown" value="10" debug_value="10" />
+  <Field tag="Invisible_ManaCost" value="30" debug_value="30" />
+  <Field tag="Invisible_Stun_Range" value="125" debug_value="125" />
+  <Field tag="Invisible_Stun_Time" value="2" debug_value="2" />
+  <Field tag="Invisible_Animation_Time" value="0.7" debug_value="0.7" />
+
+  <Field tag="Lock_On_Time" value="1" debug_value="1" />
+  <Field tag="Lock_On_Range" value="1000" debug_value="1000" />
+  <Field tag="Lock_On_CoolDown" value="10" debug_value="1" />
+  <Field tag="Lock_On_ManaCost" value="20" debug_value="20" />
+  <Field tag="Lock_On_ManaDrain_Low" value="5" debug_value="5" />
+  <Field tag="Lock_On_ManaDrain_High" value="5" debug_value="5" />
+  <Field tag="Lock_On_Damage" value="60" debug_value="60" />
+  <Field tag="Lock_On_Activate_Animation" value="0.4" debug_value="0.4" />
+  <Field tag="Lock_On_Remember_Delay" value="3" debug_value="3" />
+  <Field tag="Lock_On_Explosion_AOE" value="100" debug_value="100" />
+  <Field tag="Lock_On_Explosion_Distance" value="50" debug_value="50" />
+  <Field tag="Lock_On_Explosion_Delay" value="0.2" debug_value="0.2" />
+
+  <Field tag="Sticky_Grenade_Cooldown" value="10" debug_value="10" />
+  <Field tag="Sticky_Grenade_ManaCost" value="35" debug_value="35" />
+  <Field tag="Sticky_Grenade_Life" value="5" debug_value="5" />
+  <Field tag="Sticky_Grenade_Speed" value="6" debug_value="6" />
+  <Field tag="Sticky_Grenade_StartSpeedX" value="75" debug_value="75" />
+  <Field tag="Sticky_Grenade_StartSpeedY" value="5" debug_value="5" />
+  <Field tag="Sticky_Grenade_Gravity" value="15" debug_value="15" />
+  <Field tag="Sticky_Grenade_Bounce" value="0.9" debug_value="0.9" />
+  <Field tag="Sticky_Grenade_AOE" value="100" debug_value="100" />
+  <Field tag="Sticky_Grenade_Damage" value="30" debug_value="30" />
+  <Field tag="Sticky_Grenade_TrowSpeed" value="0.1" debug_value="0.1" />
+  <Field tag="Sticky_Animation_Create_Delay" value="0.05" debug_value="0.05" />
+
+<!-- Aztec settings -->
+  <Field tag="Aztec_Walk_Speed" value="250" debug_value="250" />
+  <Field tag="Aztec_Attack_Damage" value="25" debug_value="25" />
+  <Field tag="Aztec_Attack_Speed" value="0.40" debug_value="0.40" />
+  <Field tag="Aztec_Armor" value="0" debug_value="0" />
+  <Field tag="Aztec_Max_Mana" value="100" debug_value="100" />
+  <Field tag="Aztec_Mana_Regen_Rate" value="2.5" debug_value="2.5" />
+  <Field tag="Aztec_Max_Health" value="175" debug_value="175" />
+
+<!-- Aztec's Abilities -->
+  <Field tag="Slow_Down_Spear_Speed" value="1500" debug_value="1500" />
+  <Field tag="Slow_Down_Spear_Damage" value="30" debug_value="30" />
+  <Field tag="Slow_Down_Spear_Range" value="1500" debug_value="1500" />
+  <Field tag="Slow_Down_Spear_Duration" value="2.5" debug_value="2.5" />
+  <Field tag="Slow_Down_Spear_SlowFactor" value="0.5" debug_value="0.5" />
+  <Field tag="Slow_Down_Spear_Cooldown" value="10" debug_value="10" />
+  <Field tag="Slow_Down_Spear_ManaCost" value="15" debug_value="15" />
+  <Field tag="Slow_Down_Spear_Animation_Time" value="0.4" debug_value="0.4" />
+  <Field tag="Slow_Down_Spear_Animation_Create_Spear" value="0.3" debug_value="0.3" />
+
+  <Field tag="Flurry_CoolDown" value="20" debug_value="1" />
+  <Field tag="Flurry_Mana_Cost" value="20" debug_value="2" />
+  <Field tag="Flurry_Mana_Drain" value="5" debug_value="5" />
+  <Field tag="Flurry_Mana_Tele_Cost" value="20" debug_value="2" />
+  <Field tag="Flurry_Tele_CoolDown" value="0.2" debug_value="0.2" />
+  <Field tag="Flurry_Tele_Cooldown_Start" value="0" debug_value="0" />
+  <Field tag="Flurry_Tele_Distance" value="500" debug_value="500" />
+  <Field tag="Flurry_Damage_Not_Charged" value="30" debug_value="30" />
+  <Field tag="Flurry_Damage" value="30" debug_value="30" />
+  <Field tag="Flurry_Extra_Graphic" value="50" debug_value="50" />
+  <Field tag="Flurry_Graphic_Remove_Speed" value="200" debug_value="200" />
+
+  <Field tag="InvincibleWarrior_ManaCost" value="300" debug_value="300" />
+  <Field tag="InvincibleWarrior_CoolDown" value="5" debug_value="5" />
+  <Field tag="Invincibility_Time" value="5" debug_value="5" />
+
+  <Field tag="GhostShield_CoolDown" value="15" debug_value="15" />
+  <Field tag="GhostShield_ManaCost" value="30" debug_value="30" />
+  <Field tag="GhostShieldHit_Life" value="99999" debug_value="99999" />
+  <Field tag="GhostShieldHit_Damage" value="15" debug_value="15" />
+  <Field tag="GhostShieldHit_Radius" value="50" debug_value="50" />
+  <Field tag="GhostShieldHit_Speed" value="5" debug_value="5" />
+  
+<!-- Mage settings -->
+  <Field tag="Mage_Walk_Speed" value="225.0" debug_value="225.0" />
+  <Field tag="Mage_Attack_Damage" value="13.0" debug_value="13.0" />
+  <Field tag="Mage_Attack_Speed" value="0.25" debug_value="0.25" />
+  <Field tag="Mage_Armor" value="1.0" debug_value="1.0" />
+  <Field tag="Mage_Max_Health" value="125.0" debug_value="125.0" />
+  <Field tag="Mage_Max_Mana" value="100.0" debug_value="100.0" />
+  <Field tag="Mage_Mana_Regen_Rate" value="5.5" debug_value="5.5" />
+ 
+<!-- Mage's Abilities -->
+  <Field tag="ElectricCelerity_CoolDown" value="12.0" debug_value="1.0" />
+  <Field tag="ElectricCelerity_ManaCost" value="40.0" debug_value="4.0" />
+  <Field tag="ElectricCelerityBuff_Duration" value="2.5" debug_value="25" />
+  <Field tag="ElectricCelerityBuff_SpeedFactor" value="3.0" debug_value="3.0" />
+  <Field tag="ElectricCelerityHit_Damage" value="8.0" debug_value="8.0" />
+  
+  <Field tag="ability_microbot_duration" value="14.0" debug_value="57.0" />
+  <Field tag="ability_microbot_damage" value="20.0" debug_value="10.0" />
+  <Field tag="ability_microbot_cooldown" value="21.0" debug_value="14.0" />
+  <Field tag="ability_microbot_manacost" value="30.0" debug_value="30.0" />
+  <Field tag="ability_microbot_speed" value="1500.0" debug_value="500.0" />
+  <Field tag="ability_microbot_distance" value="64.0" debug_value="64.0" />
+  <Field tag="ability_microbot_rotationspeed" value="2.0" debug_value="2.0" />
+  <Field tag="ability_microbot_disappear_time" value="0.35" debug_value="0.35" />
+  
+  <Field tag="Whirl_Wind_CoolDown" value="10.0" debug_value="1.0" />
+  <Field tag="Whirl_Wind_ManaCost" value="60.0" debug_value="10.0" />
+  <Field tag="Whirl_Wind_Radius" value="200.0" debug_value="200.0" />
+  <Field tag="Whirl_Wind_Duration" value="0.5" debug_value="0.5" />
+  <Field tag="Whirl_Wind_Speed" value="500" debug_value="500" />
+  <Field tag="Whirl_Wind_Damage" value="30.0" debug_value="30.0" />
+  <Field tag="Whirl_Wind_Animation_Time" value="1.0" debug_value="1.0" />
+  <Field tag="Mage_Projectile_Range" value="1500.0" debug_value="1500.0" />
+  <Field tag="Mage_Projectile_Speed" value="1500.0" debug_value="350.0" />
+
+  <Field tag="Credits_Speed" value="60.0" debug_value="60.0" />
+
+  <!-- Boss settings -->
+  <Field tag="Boss_Health" value="500.0" debug_value="500.0" />
+  <Field tag="Boss_Attack_Damage" value="30.0" debug_value="30.0" />
+  <Field tag="Boss_Attack_Stun_Radius" value="125.0" debug_value="125.0" />
+  <Field tag="Boss_Attack_Stun_Time" value="1.0" debug_value="1.0" />
+  <Field tag="Boss_Attack_Time" value="0.8" debug_value="0.8" />
+  <Field tag="Boss_Projectile_Speed" value="500" debug_value="500" />
+  <Field tag="Boss_Start_Level" value="3" debug_value="3" />
+  <Field tag="Waves_Between_Bosses" value="5" debug_value="5" />
+  
+  <!-- Powerups -->
+  <Field tag="Powerup_Spawn_Time" value="30.0" debug_value="5.0" />
+  <Field tag="Powerup_Damage_Duration" value="10.0" debug_value="10.0" />
+  <Field tag="Powerup_Damage_Multiplier" value="2.0" debug_value="3.0" />
+  <Field tag="Powerup_Slowdown_Duration" value="5.0" debug_value="5.0" />
+  <Field tag="Powerup_Slowdown_Multiplier" value="0.5" debug_value="0.5" />
+
+  <!-- Map Specific -->
+  <Field tag="Aztec_Fire_Damage" value="7.0" debug_value="7.0" />
+  <Field tag="Nano_Fence_Range" value="50.0" debug_value="50.0" />
+
+  <!-- Rumble Specific -->
+  <Field tag="Rumble_Take_Damage" value="0.5" debug_value="0.5" />
+  <Field tag="Rumble_Give_Damage" value="0.5" debug_value="0.5" />
+  <Field tag="Rumble_Nano_Whirl_Wind" value="0.7" debug_value="0.7" />
+
+</Configuration>

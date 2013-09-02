@@ -1,0 +1,4 @@
+C:\Users\SuperSmith\Desktop\Hba\XNA 4.0\HeroBattleArena\Content\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\SuperSmith\Desktop\Hba\XNA 4.0\HeroBattleArena\Content\obj\x86\Release\Audio\Waves\HBA_XACT.xml
+E:\Färdigt\Spel\Hero Battle Arena\HBA XNA 4.0\HeroBattleArena\Content\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Färdigt\Spel\Hero Battle Arena\HBA XNA 4.0\HeroBattleArena\Content\obj\x86\Release\Audio\Waves\HBA_XACT.xml

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Map background="Maps\Checkpoint\background">
+  <Prefabs>
+    <!-- Car -->
+    <Obstacle tag="car">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="85">Maps\Checkpoint\car</Texture>
+      <AABB minX="5" minY="60" maxX="190" maxY="156" />
+    </Obstacle>
+    <!-- Sandbags -->
+    <Obstacle tag="hori_sandbags">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="35">Maps\Checkpoint\hori_sandbags</Texture>
+      <AABB minX="2" minY="35" maxX="160" maxY="72" />
+    </Obstacle>
+    <Obstacle tag="vert_sandbags">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="92">Maps\Checkpoint\vert_sandbags</Texture>
+      <AABB minX="0" minY="88" maxX="97" maxY="130" />
+      <AABB minX="60" minY="120" maxX="100" maxY="243" />
+    </Obstacle>
+    <!-- Barrels -->
+    <Obstacle tag="lower_barrels">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="34">Maps\Checkpoint\lower_barrels</Texture>
+      <AABB minX="4" minY="34" maxX="208" maxY="90" />
+    </Obstacle>
+    <Obstacle tag="upper_barrels">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="72">Maps\Checkpoint\upper_barrels</Texture>
+      <AABB minX="1" minY="62" maxX="139" maxY="94" />
+      <AABB minX="40" minY="96" maxX="140" maxY="179" />
+    </Obstacle>
+  </Prefabs>
+
+  <Objects>
+    <Obstacle tag="car" x="280" y="113" />
+    <Obstacle tag="hori_sandbags" x="900" y="305" />
+    <Obstacle tag="lower_barrels" x="65" y="445" />
+    <Obstacle tag="upper_barrels" x="634" y="13" />
+    <Obstacle tag="vert_sandbags" x="640" y="448" />
+  </Objects>
+
+  <SpawnPoints>
+    <SpawnPoint x="300" y="250" />
+    <SpawnPoint x="700" y="250" />
+    <SpawnPoint x="300" y="500" />
+    <SpawnPoint x="700" y="500" />
+  </SpawnPoints>
+</Map>

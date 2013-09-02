@@ -1,0 +1,25 @@
+C:\Users\LuktarSmör\Desktop\4.0\XNA 4.0\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\LuktarSmör\Desktop\Hero Battle Arena SVN\XNA 4.0\XNA 4.0\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\LuktarSmör\Desktop\Hero Battle Arena SVN\XNA 4.0\XNA 4.0\HeroBattleArena\Content\obj\x86\Debug\Audio\Waves\HBA_XACT.xml
+C:\Users\Kajzer Jack\Desktop\HBA\XNA 4.0\XNA 4.0\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kajzer Jack\Desktop\HBA\XNA 4.0\XNA 4.0\HeroBattleArena\Content\obj\x86\Debug\Audio\Waves\HBA_XACT.xml
+C:\Users\Public\Documents\Hero Battle Arena\XNA 4.0\XNA 4.0\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Public\Documents\Hero Battle Arena\XNA 4.0\XNA 4.0\HeroBattleArena\Content\obj\x86\Debug\Audio\Waves\HBA_XACT.xml
+C:\HBA skola\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\HBA skola\HeroBattleArena\Content\obj\x86\Debug\Audio\Waves\HBA_XACT.xml
+C:\hbajs\HBA EXport\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\hbajs\HBA EXport\HeroBattleArena\Content\obj\x86\Debug\Audio\Waves\HBA_XACT.xml
+C:\Users\SuperSmith\Desktop\HBA EXport\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\SuperSmith\Desktop\HBA EXport\HeroBattleArena\Content\obj\x86\Debug\Audio\Waves\HBA_XACT.xml
+C:\XNA 4.0\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\XNA 4.0\HeroBattleArena\Content\obj\x86\Debug\Audio\Waves\HBA_XACT.xml
+C:\Hero Battle Arena\XNA 4.0\XNA 4.0\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Hero Battle Arena\XNA 4.0\XNA 4.0\HeroBattleArena\Content\obj\x86\Debug\Audio\Waves\HBA_XACT.xml
+C:\New folder\XNA 4.0\XNA 4.0\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\New folder\XNA 4.0\XNA 4.0\HeroBattleArena\Content\obj\x86\Debug\Audio\Waves\HBA_XACT.xml
+C:\Users\Kajzer Jack\Desktop\hba senate\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kajzer Jack\Desktop\hba senate\HeroBattleArena\Content\obj\x86\Debug\Audio\Waves\HBA_XACT.xml
+C:\Users\SuperSmith\Desktop\Hba\XNA 4.0\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\SuperSmith\Desktop\Hba\XNA 4.0\HeroBattleArena\Content\obj\x86\Debug\Audio\Waves\HBA_XACT.xml
+C:\hero\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\hero\HeroBattleArena\Content\obj\x86\Debug\Audio\Waves\HBA_XACT.xml

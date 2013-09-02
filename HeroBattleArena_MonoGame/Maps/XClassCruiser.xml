@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Map background="Maps\XClassCruiser\background">
+  <Prefabs>
+    <!-- Cryo Freezers -->
+    <Obstacle tag="cryofreezer">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="30">Maps\XClassCruiser\cryofreezer</Texture>
+      <AABB minX="0" minY="30" maxX="51" maxY="150" />
+    </Obstacle>
+    <Obstacle tag="cryofreezer2">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="30">Maps\XClassCruiser\cryofreezer2</Texture>
+      <AABB minX="0" minY="30" maxX="51" maxY="150" />
+    </Obstacle>
+    <!-- Core 
+    <Obstacle tag="nano_core">
+      <Texture layer="1" offsetX="0" offsetY="0" depth="0">Maps\XClassCruiser\Nano_Core</Texture>
+      <AnimationCycles frameRate="8" frameWidth="300" frameHeight="300" framesX="6" framesY="4">
+        <Cycle startX="0" startY="0" numFrames="19"/>
+      </AnimationCycles>
+    </Obstacle>-->
+
+    <!-- Core -->
+    <Obstacle tag="nano_core">
+      <Texture layer="1" offsetX="0" offsetY="0" depth="0">Maps\XClassCruiser\Nano_Core</Texture>
+    </Obstacle>
+    
+    <!-- Spawn -->
+    <Obstacle tag="spawnpoint">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="0">Maps\XClassCruiser\spawnpoint</Texture>
+      <AABB minX="0" minY="0" maxX="84" maxY="85" />
+    </Obstacle>
+    <!-- Stolpar -->
+    <Obstacle tag="stolpe_down_right">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="45">Maps\XClassCruiser\stolpe_down_right</Texture>
+      <!--<AABB minX="5" minY="45" maxX="16" maxY="81" /> -->
+    </Obstacle>
+    <Obstacle tag="stolpe_left">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="45">Maps\XClassCruiser\stolpe_left</Texture>
+      <!--<AABB minX="5" minY="45" maxX="16" maxY="81" /> -->
+    </Obstacle>
+    <Obstacle tag="stolpe_up">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="45">Maps\XClassCruiser\stolpe_up</Texture>
+      <!--<AABB minX="5" minY="45" maxX="16" maxY="81" /> -->
+    </Obstacle>
+    <Obstacle tag="stolpe_down_left">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="45">Maps\XClassCruiser\stolpe_down_left</Texture>
+      <!--<AABB minX="5" minY="45" maxX="16" maxY="81" /> -->
+    </Obstacle>
+    <Obstacle tag="stolpe_right">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="45">Maps\XClassCruiser\stolpe_right</Texture>
+     <!-- <AABB minX="5" minY="45" maxX="16" maxY="81" /> -->
+    </Obstacle>
+    <Obstacle tag="stolpe_down">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="45">Maps\XClassCruiser\stolpe_down</Texture>
+      <!--<AABB minX="5" minY="45" maxX="16" maxY="81" /> -->
+    </Obstacle>
+    <!-- Fences -->
+    <Obstacle tag="fence_left_start">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="97">Maps\XClassCruiser\Fence\fence_left_start</Texture>
+      <AnimationCycles frameRate="8" frameWidth="150" frameHeight="150" framesX="4" framesY="1">
+        <Cycle startX="0" startY="0" numFrames="4"/>
+      </AnimationCycles>
+      <AABB minX="38" minY="85" maxX="165" maxY="98" />
+    </Obstacle>
+    <Obstacle tag="fence_right_start">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="97">Maps\XClassCruiser\Fence\fence_right_start</Texture>
+      <AnimationCycles frameRate="8" frameWidth="150" frameHeight="150" framesX="4" framesY="1">
+        <Cycle startX="0" startY="0" numFrames="4"/>
+      </AnimationCycles>
+      <AABB minX="-20" minY="85" maxX="105" maxY="98" />
+    </Obstacle>
+    <Obstacle tag="fence_middle_1">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="97">Maps\XClassCruiser\Fence\fence_middle_1</Texture>
+      <AnimationCycles frameRate="8" frameWidth="150" frameHeight="150" framesX="4" framesY="1">
+        <Cycle startX="0" startY="0" numFrames="4"/>
+      </AnimationCycles>
+      <AABB minX="33" minY="82" maxX="116" maxY="100" />
+    </Obstacle>
+    <Obstacle tag="fence_middle_3">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="87">Maps\XClassCruiser\Fence\fence_middle_3</Texture>
+      <AnimationCycles frameRate="8" frameWidth="150" frameHeight="150" framesX="4" framesY="1">
+        <Cycle startX="0" startY="0" numFrames="4"/>
+      </AnimationCycles>
+      <AABB minX="50" minY="67" maxX="100" maxY="85" />
+    </Obstacle>
+    <Obstacle tag="fence_middle_4">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="100">Maps\XClassCruiser\Fence\fence_middle_4</Texture>
+      <AnimationCycles frameRate="8" frameWidth="150" frameHeight="150" framesX="4" framesY="1">
+        <Cycle startX="0" startY="0" numFrames="4"/>
+      </AnimationCycles>
+    </Obstacle>
+    <Obstacle tag="fence_middle_5">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="100">Maps\XClassCruiser\Fence\fence_middle_5</Texture>
+      <AnimationCycles frameRate="8" frameWidth="150" frameHeight="150" framesX="4" framesY="1">
+        <Cycle startX="0" startY="0" numFrames="4"/>
+      </AnimationCycles>
+    </Obstacle>
+    <Obstacle tag="fence_vert_1">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="0">Maps\XClassCruiser\Fence\fence_vert_1</Texture>
+      <AnimationCycles frameRate="8" frameWidth="50" frameHeight="300" framesX="4" framesY="1">
+        <Cycle startX="0" startY="0" numFrames="4"/>
+      </AnimationCycles>
+      <AABB minX="22" minY="105" maxX="25" maxY="220" />
+    </Obstacle>
+    <Obstacle tag="fence_vert_2">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="0">Maps\XClassCruiser\Fence\fence_vert_2</Texture>
+      <AnimationCycles frameRate="8" frameWidth="50" frameHeight="300" framesX="4" framesY="1">
+        <Cycle startX="0" startY="0" numFrames="4"/>
+      </AnimationCycles>
+      <AABB minX="18" minY="36" maxX="22" maxY="316" />
+    </Obstacle>
+  </Prefabs>
+  
+  <Objects>
+    <!-- Core -->
+    <Obstacle tag="nano_core"   x="365" y="236" />
+    <!-- Cryo Freezers -->
+    <Obstacle tag="cryofreezer"   x="791" y="208" />
+    <Obstacle tag="cryofreezer2"  x="190" y="360" />
+    <!-- SpawnPoints -->
+    <Obstacle tag="spawnpoint"  x="300" y="196" />
+    <Obstacle tag="spawnpoint"  x="700" y="470" />
+
+    <Fence tag ="horizontal">
+      <Part name="fence_left_start"  x="385" y="28" />
+      <Part name="fence_middle_3"  x="487" y="42" />
+      <Part name="fence_middle_3"  x="532" y="42" />
+      <Part name="fence_middle_3"  x="597" y="42" />
+      <Part name="fence_middle_3"  x="642" y="42" />
+      <Part name="fence_middle_3"  x="707" y="42" />
+      <Part name="fence_middle_4"  x="487" y="7" />
+      <Part name="fence_middle_5"  x="532" y="7" />
+      <Part name="fence_middle_4"  x="597" y="7" />
+      <Part name="fence_middle_5"  x="642" y="7" />
+      <Part name="fence_middle_4"  x="707" y="7" />
+      <Part name="fence_right_start"  x="785" y="28" />
+    </Fence>
+
+    <Fence tag ="horizontal">
+      <Part name="fence_left_start" x="83" y="531" />
+      <Part name="fence_middle_3"  x="170" y="548" />
+      <Part name="fence_middle_3"  x="225" y="548" />
+      <Part name="fence_middle_3"  x="280" y="548" />
+      <Part name="fence_middle_3"  x="335" y="548" />
+      <Part name="fence_middle_3"  x="390" y="548" />
+      <Part name="fence_middle_3"  x="445" y="548" />
+      <Part name="fence_middle_5"  x="170" y="513" />
+      <Part name="fence_middle_4"  x="225" y="513" />
+      <Part name="fence_middle_5"  x="280" y="513" />
+      <Part name="fence_middle_4"  x="335" y="513" />
+      <Part name="fence_middle_5"  x="390" y="513" />
+      <Part name="fence_middle_4"  x="445" y="513" />
+      <Part name="fence_right_start"  x="535" y="533" />
+    </Fence>
+
+    <Fence tag ="horizontal">
+      <Part name="fence_middle_1"  x="792" y="528" />
+    </Fence>
+
+    <Fence tag ="horizontal">
+      <Part name="fence_left_start"  x="84" y="30" />
+      <Part name="fence_right_start"  x="135" y="30" />
+    </Fence>
+
+    <Fence tag ="horizontal">
+      <Part name="fence_left_start"  x="884" y="130" />
+    </Fence>
+
+    <Fence tag ="horizontal">
+      <Part name="fence_right_start"  x="-16" y="427" />
+    </Fence>
+
+    <Fence tag ="vertical">
+      <Part name="fence_vert_2"  x="897" y="292" />
+    </Fence>
+
+    <Fence tag ="vertical">
+      <Part name="fence_vert_1"  x="893" y="-31" />
+    </Fence>
+    
+    <Fence tag ="vertical">
+    <Part name="fence_vert_2"  x="797" y="544" />
+    </Fence>
+    
+    <Fence tag ="vertical">
+      <Part name="fence_vert_2"  x="96" y="41" />
+    </Fence>
+
+    <Fence tag ="vertical">
+      <Part name="fence_vert_1"  x="93" y="370" />
+    </Fence>
+    
+    <Fence name ="vertical">
+      <Part name="fence_vert_1"  x="242" y="-104" />
+    </Fence>
+    
+    <!-- Stolpar -->
+    <Obstacle tag="stolpe_down_right"  x="103" y="56" />
+    <Obstacle tag="stolpe_down_right"  x="804" y="557" />
+    <Obstacle tag="stolpe_left"  x="254" y="56" />
+    <Obstacle tag="stolpe_left"  x="654" y="558" />
+    <Obstacle tag="stolpe_left"  x="904" y="558" />
+    <Obstacle tag="stolpe_up"  x="104" y="306" />
+    <Obstacle tag="stolpe_down_left"  x="103" y="454" />
+    <Obstacle tag="stolpe_down_left"  x="904" y="54" />
+    <Obstacle tag="stolpe_right"  x="105" y="559" />
+    <Obstacle tag="stolpe_right"  x="904" y="157" />
+    <Obstacle tag="stolpe_down"  x="904" y="308" />
+    <Obstacle tag="stolpe_right"  x="406" y="54" />
+
+  </Objects>
+
+  <SpawnPoints>
+    <SpawnPoint x="300" y="250" />
+    <SpawnPoint x="700" y="250" />
+    <SpawnPoint x="300" y="500" />
+    <SpawnPoint x="700" y="500" />
+  </SpawnPoints>
+</Map>
+
+
+<!--
+<Obstacle tag="stolpe_right"  x="406" y="54" />
+
+
+ <Obstacle tag="fence_left_start"  x="84" y="30" />
+ <Obstacle tag="fence_left_start"  x="884" y="130" />
+ <Obstacle tag="fence_right_start"  x="135" y="30" />    
+ <Obstacle tag="fence_right_start"  x="-16" y="427" />
+
+<Obstacle tag="fence_left_start"  x="83" y="531" />
+<Obstacle tag="fence_left_start"  x="385" y="28" />
+<Obstacle tag="fence_right_start"  x="535" y="533" />
+<Obstacle tag="fence_right_start"  x="785" y="28" />
+
+<Obstacle tag="fence_middle_1"  x="792" y="528" />
+
+<Obstacle tag="fence_middle_3"  x="170" y="548" />
+<Obstacle tag="fence_middle_3"  x="225" y="548" />
+<Obstacle tag="fence_middle_3"  x="280" y="548" />
+<Obstacle tag="fence_middle_3"  x="335" y="548" />
+<Obstacle tag="fence_middle_3"  x="390" y="548" />
+<Obstacle tag="fence_middle_3"  x="445" y="548" />
+
+<Obstacle tag="fence_middle_3"  x="487" y="42" />
+<Obstacle tag="fence_middle_3"  x="532" y="42" />
+<Obstacle tag="fence_middle_3"  x="597" y="42" />
+<Obstacle tag="fence_middle_3"  x="642" y="42" />
+<Obstacle tag="fence_middle_3"  x="707" y="42" />
+
+<Obstacle tag="fence_middle_4"  x="487" y="7" />
+<Obstacle tag="fence_middle_5"  x="532" y="7" />
+<Obstacle tag="fence_middle_4"  x="597" y="7" />
+<Obstacle tag="fence_middle_5"  x="642" y="7" />
+<Obstacle tag="fence_middle_4"  x="707" y="7" />
+
+<Obstacle tag="fence_middle_5"  x="170" y="513" />
+<Obstacle tag="fence_middle_4"  x="225" y="513" />
+<Obstacle tag="fence_middle_5"  x="280" y="513" />
+<Obstacle tag="fence_middle_4"  x="335" y="513" />
+<Obstacle tag="fence_middle_5"  x="390" y="513" />
+<Obstacle tag="fence_middle_4"  x="445" y="513" />
+
+<Obstacle tag="fence_vert_1"  x="93" y="370" />
+    <Obstacle tag="fence_vert_1"  x="242" y="-104" />
+    <Obstacle tag="fence_vert_1"  x="893" y="-31" />
+
+    <Obstacle tag="fence_vert_2"  x="96" y="41" />
+    <Obstacle tag="fence_vert_2"  x="897" y="292" />
+    <Obstacle tag="fence_vert_2"  x="797" y="544" />
+
+-->

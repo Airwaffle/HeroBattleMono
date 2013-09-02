@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8BCF5AA7-7774-4A37-9E36-A5FAD2B5F833}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HeroBattleArena_MonoGame</RootNamespace>
+    <AssemblyName>HeroBattleArena_MonoGame</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\WindowsGL\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\WindowsGL\Release\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Game\Animation.cs" />
+    <Compile Include="Game\AnimationManager.cs" />
+    <Compile Include="Game\Collision.cs" />
+    <Compile Include="Game\Configuration.cs" />
+    <Compile Include="Game\DataSerialization\GameContentReader.cs" />
+    <Compile Include="Game\FileSaver.cs" />
+    <Compile Include="Game\GameModes\GameMode.cs" />
+    <Compile Include="Game\GameModes\GM_FFA.cs" />
+    <Compile Include="Game\GameModes\GM_Team.cs" />
+    <Compile Include="Game\GameModes\GM_Zombie.cs" />
+    <Compile Include="Game\GameObjects\AABB.cs" />
+    <Compile Include="Game\GameObjects\Ability.cs" />
+    <Compile Include="Game\GameObjects\Boss\Behaviours\BossAttack.cs" />
+    <Compile Include="Game\GameObjects\Boss\Behaviours\BossDash.cs" />
+    <Compile Include="Game\GameObjects\Boss\Behaviours\BossEnterMageLevel.cs" />
+    <Compile Include="Game\GameObjects\Boss\Behaviours\BossIdle.cs" />
+    <Compile Include="Game\GameObjects\Boss\Behaviours\MiddleWalkSpawn.cs" />
+    <Compile Include="Game\GameObjects\Boss\Boss.cs" />
+    <Compile Include="Game\GameObjects\Boss\BossBullet.cs" />
+    <Compile Include="Game\GameObjects\Boss\BossFollowHit.cs" />
+    <Compile Include="Game\GameObjects\Boss\BossHit.cs" />
+    <Compile Include="Game\GameObjects\Boss\BossLaserProjectile.cs" />
+    <Compile Include="Game\GameObjects\Boss\BossTravelingLaser.cs" />
+    <Compile Include="Game\GameObjects\Buffs\Buff.cs" />
+    <Compile Include="Game\GameObjects\Buffs\DamagePUBuff.cs" />
+    <Compile Include="Game\GameObjects\Buffs\SlowPUBuff.cs" />
+    <Compile Include="Game\GameObjects\DamageObject.cs" />
+    <Compile Include="Game\GameObjects\Effects.cs" />
+    <Compile Include="Game\GameObjects\Entity.cs" />
+    <Compile Include="Game\GameObjects\EntityManager.cs" />
+    <Compile Include="Game\GameObjects\GameEffect.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Arthur\Abilities\CounterTeleport.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Arthur\Abilities\LaserBlade.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Arthur\Abilities\SilenceShine.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Arthur\Arthur.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Arthur\ArthurSword.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Arthur\CounterTeleportBuff.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Arthur\LaserBladeProjectile.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Aztec\Abilities\Flurry.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Aztec\Abilities\GhostShield.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Aztec\Abilities\JawelinThrow.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Aztec\Aztec.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Aztec\AztecSpear.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Aztec\FlurryAttack.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Aztec\GhostShieldBuff.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Aztec\GhostShieldHit.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Aztec\JawelinProjectile.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Aztec\SlowdownBuff.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Hero.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Mage\ElectricCelerity.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Mage\ElectricCelerityBuff.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Mage\ElectricCelerityHit.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Mage\Mage.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Mage\MageProjectile.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Mage\MicroBot.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Mage\MicroBotAbility.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Mage\MicroBotBuff.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Mage\WhirlWind.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Mage\WhirlWindBuff.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Solider\Abilities\Flashbang.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Solider\Abilities\LockOn.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Solider\Abilities\StickyGrenade.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Solider\Bullet.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Solider\Invisbuff.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Solider\LockOnExplosion.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Solider\LockOnLaser.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Solider\Soldier.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Solider\StickyGrenadeBuff.cs" />
+    <Compile Include="Game\GameObjects\Heroes\Solider\StickyGrenadeProjectile.cs" />
+    <Compile Include="Game\GameObjects\Heroes\ZombieHero\Ability\DigTeleport.cs" />
+    <Compile Include="Game\GameObjects\Heroes\ZombieHero\Ability\SummonZombies.cs" />
+    <Compile Include="Game\GameObjects\Heroes\ZombieHero\Ability\VampyricBoost.cs" />
+    <Compile Include="Game\GameObjects\Heroes\ZombieHero\VampyricDrain.cs" />
+    <Compile Include="Game\GameObjects\Heroes\ZombieHero\VampyricHit.cs" />
+    <Compile Include="Game\GameObjects\Heroes\ZombieHero\ZombieHero.cs" />
+    <Compile Include="Game\GameObjects\HitObject.cs" />
+    <Compile Include="Game\GameObjects\IEntity.cs" />
+    <Compile Include="Game\GameObjects\Obstacle.cs" />
+    <Compile Include="Game\GameObjects\Powerups\DamagePowerup.cs" />
+    <Compile Include="Game\GameObjects\Powerups\Powerup.cs" />
+    <Compile Include="Game\GameObjects\Powerups\SlowPowerup.cs" />
+    <Compile Include="Game\GameObjects\Projectile.cs" />
+    <Compile Include="Game\GameObjects\SpecialObjects\NanoFence.cs" />
+    <Compile Include="Game\GameObjects\SpecialObjects\SacredTorch.cs" />
+    <Compile Include="Game\GameObjects\Unit.cs" />
+    <Compile Include="Game\GameObjects\UnitBar.cs" />
+    <Compile Include="Game\GameObjects\Zombies\AIManager.cs" />
+    <Compile Include="Game\GameObjects\Zombies\Behavior.cs" />
+    <Compile Include="Game\GameObjects\Zombies\Behaviors\ZombieAttack.cs" />
+    <Compile Include="Game\GameObjects\Zombies\Behaviors\ZombieBodyGuard.cs" />
+    <Compile Include="Game\GameObjects\Zombies\Behaviors\ZombieChasePlayer.cs" />
+    <Compile Include="Game\GameObjects\Zombies\Behaviors\ZombieConfused.cs" />
+    <Compile Include="Game\GameObjects\Zombies\Behaviors\ZombieEmergingFromGround.cs" />
+    <Compile Include="Game\GameObjects\Zombies\Behaviors\ZombieOutsideScreen.cs" />
+    <Compile Include="Game\GameObjects\Zombies\Behaviors\ZombieRoam.cs" />
+    <Compile Include="Game\GameObjects\Zombies\Enemy.cs" />
+    <Compile Include="Game\GameObjects\Zombies\WaveController.cs" />
+    <Compile Include="Game\GameObjects\Zombies\Zombie.cs" />
+    <Compile Include="Game\GameObjects\Zombies\ZombieAttackHit.cs" />
+    <Compile Include="Game\Graphics.cs" />
+    <Compile Include="Game\GUI.cs" />
+    <Compile Include="Game\HighScoreList.cs" />
+    <Compile Include="Game\Input.cs" />
+    <Compile Include="Game\Map.cs" />
+    <Compile Include="Game\Screen.cs" />
+    <Compile Include="Game\ScreenManager.cs" />
+    <Compile Include="Game\Screens\CharacterSelectionMenu.cs" />
+    <Compile Include="Game\Screens\CreditsScreen.cs" />
+    <Compile Include="Game\Screens\GameOptionsMenu.cs" />
+    <Compile Include="Game\Screens\GameScreen.cs" />
+    <Compile Include="Game\Screens\HighscoreScreen.cs" />
+    <Compile Include="Game\Screens\MainMenu.cs" />
+    <Compile Include="Game\Screens\MapSelectionMenu.cs" />
+    <Compile Include="Game\Screens\ModeSelectionMenu.cs" />
+    <Compile Include="Game\Screens\MovieScreen.cs" />
+    <Compile Include="Game\Screens\OptionsMenu.cs" />
+    <Compile Include="Game\Screens\PauseScreen.cs" />
+    <Compile Include="Game\Screens\PracticeOverlay.cs" />
+    <Compile Include="Game\Screens\ScoreScreen.cs" />
+    <Compile Include="Game\Screens\ScreenBounce.cs" />
+    <Compile Include="Game\Screens\SkylineScreen.cs" />
+    <Compile Include="Game\Screens\TutorialScreen.cs" />
+    <Compile Include="Game\Screens\TutorialScreenOLD.cs" />
+    <Compile Include="Game\SoundCenter.cs" />
+    <Compile Include="HeroBattleArena.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="OpenTK">
+      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\WindowsGL\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\WindowsGL\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Lidgren.Network">
+      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\WindowsGL\Lidgren.Network.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.Sdl">
+      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\WindowsGL\Tao.Sdl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\..\..\..\..\..\Program Files %28x86%29\MonoGame\v3.0\Assemblies\WindowsGL\SDL.dll">
+      <Link>SDL.dll</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Configuration\Configuration.xml" />
+    <Content Include="Configuration\Effects.xml" />
+    <Content Include="Configuration\GameContent.xml" />
+    <Content Include="Configuration\SaveFile.xml" />
+    <Content Include="Configuration\WaveData.xml" />
+    <Content Include="Icon.ico" />
+    <Content Include="Maps\CamelotSquare.xml" />
+    <Content Include="Maps\Checkpoint.xml" />
+    <Content Include="Maps\SacredChamber.xml" />
+    <Content Include="Maps\XClassCruiser.xml" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

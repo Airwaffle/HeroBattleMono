@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Effects>
+  <Effect name="damage_indicator" layer="1.2"
+        draw_h="64" draw_w="64" frames_x="1" frames_y="1" nrOfFrames="1"
+        frame_rate="1" loops="1" />
+  
+  <Effect name="flash_bang_effect" layer="13"
+          draw_h="160" draw_w="160" frames_x="7" frames_y="2" nrOfFrames="13"
+          frame_rate="16" loops="1" />
+  <Effect name="Silence_Effect" layer="13"
+          draw_h="450" draw_w="450" frames_x="4" frames_y="4" nrOfFrames="13"
+          frame_rate="10" loops="1" />
+  <Effect name="Grenade_Explosion" layer="2"
+          draw_h="130" draw_w="130" frames_x="9" frames_y="1"
+          frame_rate="12" loops="1" />
+
+  <Effect name="Stunned_Effect" layer="4"
+          draw_h="36" draw_w="36" frames_x="4" frames_y="1"
+          frame_rate="10" loops="100"
+          offset_x="0" offset_y="-50" />
+  <Effect name="Silenced_Effect" layer="9"
+          draw_h="36" draw_w="36" frames_x="1" frames_y="1"
+          frame_rate="1" loops="1"
+          offset_x="-18" offset_y="-46" />
+
+  <Effect name="General_Respawn" layer="10"
+          draw_h="250" draw_w="150" frames_x="9" frames_y="2"
+          frame_rate="16" loops="1"
+          offset_x="2" offset_y="-46" />
+
+  <Effect name="ex_fight" layer="10"
+          draw_h="69" draw_w="382" frames_x="1" frames_y="1"
+          frame_rate="1" loops="5" />
+  <Effect name="ex_survive" layer="10"
+          draw_h="71" draw_w="567" frames_x="1" frames_y="1"
+          frame_rate="1" loops="5" />
+  
+  <Effect name="ex_arthur_wins" layer="10" frame_rate="1" loops="5" offset_x="400"/>
+  <Effect name="ex_stryker_wins" layer="10" frame_rate="1" loops="5" offset_x="431"/>
+  <Effect name="ex_quertzali_wins" layer="10" frame_rate="1" loops="5" offset_x="460" />
+  <Effect name="ex_nano_wins" layer="10" frame_rate="1" loops="5" offset_x="330"/>
+  <Effect name="ex_zombie_wins" layer="10" frame_rate="1" loops="5" offset_x="400"/>
+
+  <Effect name="ex_wave" layer="10" frame_rate="1" loops="3"  />
+  <Effect name="ex_wave1" layer="10" frame_rate="1" loops="3" />
+  <Effect name="ex_wave2" layer="10" frame_rate="1" loops="3" />
+  <Effect name="ex_wave3" layer="10" frame_rate="1" loops="3" />
+  <Effect name="ex_wave4" layer="10" frame_rate="1" loops="3" />
+  <Effect name="ex_wave5" layer="10" frame_rate="1" loops="3" />
+  <Effect name="ex_wave6" layer="10" frame_rate="1" loops="3" />
+  <Effect name="ex_wave7" layer="10" frame_rate="1" loops="3" />
+  <Effect name="ex_wave8" layer="10" frame_rate="1" loops="3" />
+  <Effect name="ex_wave9" layer="10" frame_rate="1" loops="3" />
+  <Effect name="ex_wave0" layer="10" frame_rate="1" loops="3" />
+  <Effect name="ex_wave_boss" layer="10"
+          draw_h="94" draw_w="339" frames_x="2" frames_y="1"
+          frame_rate="4" loops="12" />
+  
+  <Effect name="ex_unlocked_green" layer="10"
+          draw_h="224" draw_w="207" frames_x="1" frames_y="1"
+          frame_rate="1" loops="2" />
+  <Effect name="ex_unlocked_red" layer="10"
+          draw_h="150" draw_w="300" frames_x="1" frames_y="1"
+          frame_rate="1" loops="5" />
+
+  <Effect name="projectile_mage_hit_up" layer="2"
+          draw_h="50" draw_w="50" frames_x="4" frames_y="1"
+          frame_rate="20" loops="1" />
+  <Effect name="projectile_mage_hit_down" layer="2"
+          draw_h="50" draw_w="50" frames_x="4" frames_y="1"
+          frame_rate="20" loops="1" />
+  <Effect name="projectile_mage_hit_left" layer="2"
+          draw_h="50" draw_w="50" frames_x="4" frames_y="1"
+          frame_rate="20" loops="1" />
+  <Effect name="projectile_mage_hit_right" layer="2"
+          draw_h="50" draw_w="50" frames_x="4" frames_y="1"
+          frame_rate="20" loops="1" />
+
+  <Effect name="lock_bomb" layer="10"
+          draw_h="160" draw_w="160" frames_x="5" frames_y="1"
+          frame_rate="10" loops="1" />
+</Effects>

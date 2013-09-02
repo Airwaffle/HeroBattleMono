@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Map background="Maps\CamelotSquare\background">
+  <Prefabs>
+    <!-- Fountain -->
+    <Obstacle tag="arthur_fountain">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="80">Maps\CamelotSquare\Fountain</Texture>
+      <AnimationCycles frameRate="8" frameWidth="166" frameHeight="166" framesX="3" framesY="1">
+        <Cycle startX="0" startY="0" numFrames="3"/>
+      </AnimationCycles>
+      <AABB minX="13" minY="65" maxX="153" maxY="160" />
+    </Obstacle>
+    <!-- Top Left Wall -->
+    <Obstacle tag="arthur_wall_tl">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="60">Maps\CamelotSquare\wall_top_left</Texture>
+      <AABB minX="0" minY="30" maxX="20" maxY="145" />
+      <AABB minX="0" minY="30" maxX="190" maxY="60" />
+    </Obstacle>
+    <!-- Top Right Wall -->
+    <Obstacle tag="arthur_wall_tr">
+      <Texture layer="2" offsetX="10" offsetY="0" depth="70">Maps\CamelotSquare\wall_top_right</Texture>
+      <AABB minX="14" minY="30" maxX="204" maxY="60" />
+      <AABB minX="184" minY="30" maxX="204" maxY="145" />
+    </Obstacle>
+    <!-- Bottom Right Wall -->
+    <Obstacle tag="arthur_wall_br">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="215">Maps\CamelotSquare\wall_bot_right</Texture>
+      <AABB minX="7" minY="180" maxX="197" maxY="210" />
+      <AABB minX="177" minY="70" maxX="197" maxY="210" />
+    </Obstacle>
+    <!-- Bottom Left Wall -->
+    <Obstacle tag="arthur_wall_bl">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="190">Maps\CamelotSquare\wall_bot_left</Texture>
+      <AABB minX="0" minY="160" maxX="190" maxY="190" />
+      <AABB minX="0" minY="50" maxX="20" maxY="190" />
+    </Obstacle>
+    <!-- Animated tree -->
+    <Obstacle tag="arthur_tree">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="160">Maps\CamelotSquare\Tree</Texture>
+      <AnimationCycles frameRate="8" frameWidth="170" frameHeight="239" framesX="9" framesY="1">
+        <Cycle startX="0" startY="0" numFrames="9"/>
+      </AnimationCycles>
+      <AABB minX="60" minY="145" maxX="105" maxY="185" />
+    </Obstacle>
+    <!-- Animated bird -->
+    <Obstacle tag="arthur_bird">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="300">Maps\CamelotSquare\Bird</Texture>
+      <AnimationCycles frameRate="8" frameWidth="23" frameHeight="23" framesX="2" framesY="1">
+        <Cycle startX="0" startY="0" numFrames="2"/>
+      </AnimationCycles>
+    </Obstacle>
+    <!-- Animated flowers -->
+    <Obstacle tag="arthur_flowers">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="0">Maps\CamelotSquare\Flowers</Texture>
+      <AnimationCycles frameRate="8" frameWidth="80" frameHeight="50" framesX="3" framesY="1">
+        <Cycle startX="0" startY="0" numFrames="3"/>
+      </AnimationCycles>
+    </Obstacle>
+    <!-- Fence -->
+    <Obstacle tag="arthur_fence">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="0">Maps\CamelotSquare\Fence</Texture>
+    </Obstacle>
+    <!-- Benches -->
+    <Obstacle tag="arthur_bench_l">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="15">Maps\CamelotSquare\Bench_Left</Texture>
+    </Obstacle>
+    <Obstacle tag="arthur_bench_r">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="15">Maps\CamelotSquare\Bench_Right</Texture>
+    </Obstacle>
+  </Prefabs>
+  
+  <Objects>
+    <Obstacle tag="arthur_fountain" x="431" y="271" />
+    <Obstacle tag="arthur_wall_tl" x="210" y="130" />
+    <Obstacle tag="arthur_wall_tr" x="613" y="130" />
+    <Obstacle tag="arthur_wall_bl" x="212" y="420" />
+    <Obstacle tag="arthur_wall_br" x="620" y="395" />
+    <Obstacle tag="arthur_tree" x="-15" y="270" />
+    <Obstacle tag="arthur_tree" x="100" y="670" />
+    <Obstacle tag="arthur_tree" x="-20" y="-150" />
+    <Obstacle tag="arthur_tree" x="950" y="-40" />
+    <Obstacle tag="arthur_bird" x="465" y="340" />
+    <Obstacle tag="arthur_flowers" x="424" y="392" />
+    <Obstacle tag="arthur_fence" x="800" y="230" />
+    <Obstacle tag="arthur_bench_l" x="250" y="596" />
+    <Obstacle tag="arthur_bench_r" x="655" y="600" />
+  </Objects>
+
+  <SpawnPoints>
+    <SpawnPoint x="300" y="250" />
+    <SpawnPoint x="700" y="250" />
+    <SpawnPoint x="300" y="500" />
+    <SpawnPoint x="700" y="500" />
+  </SpawnPoints>
+</Map>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Waves>
+
+  <!--
+  <Wave nr ="0" zombie1_amount ="1"
+  zombie2_amount ="0"
+  zombie3_amount ="0"
+  zombie4_amount ="0"
+  spawn_per_second ="5"
+  spawning_below_ground ="1"
+  change_map_to ="0"
+  />
+  
+  <Wave nr ="0" zombie1_amount ="1"
+  zombie2_amount ="0"
+  zombie3_amount ="0"
+  zombie4_amount ="0"
+  spawn_per_second ="5"
+  spawning_below_ground ="1"
+  change_map_to ="3"
+        />       
+  <Wave nr ="0" zombie1_amount ="1"
+  zombie2_amount ="0"
+  zombie3_amount ="0"
+  zombie4_amount ="0"
+  spawn_per_second ="5"
+  spawning_below_ground ="1"
+  change_map_to ="2"                
+  />
+
+
+  <Wave nr ="0" zombie1_amount ="30"
+              zombie2_amount ="0"
+              zombie3_amount ="0"
+              zombie4_amount ="0"
+              spawn_per_second ="5"
+              spawning_below_ground ="0.5"
+      change_map_to ="1"
+               />
+<Wave nr ="1" 
+            zombie1_amount ="30"            
+            zombie2_amount ="10"
+            zombie3_amount="3"
+            zombie4_amount ="0"
+            spawn_per_second ="5"
+            spawning_below_ground ="0"
+      change_map_to ="2" 
+            
+               /> 
+<Wave nr ="2" 
+            zombie1_amount ="0"
+            zombie2_amount ="40"
+            zombie3_amount ="10"
+            zombie4_amount ="5"
+            spawn_per_second ="5"
+            spawning_below_ground ="0.75"
+            change_map_to ="3"
+           
+               />
+  -->
+
+  <Wave nr ="2"
+            zombie1_amount ="30"
+            zombie2_amount ="30"
+            zombie3_amount ="30"
+            zombie4_amount ="30"
+            spawn_per_second ="5"
+            spawning_below_ground ="0.75"
+            change_map_to ="3"
+           
+               />
+</Waves>

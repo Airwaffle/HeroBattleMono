@@ -1,0 +1,18 @@
+C:\Documents and Settings\b10chrhj\My Documents\Visual Studio 2008\Projects\HeroBattleArena\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\LuktarSmör\Desktop\XNA\HeroBattleArena\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Hjalle\Desktop\the fuck\HeroBattleArena\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Hjalle\Desktop\xna copy\HeroBattleArena\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\a10siman\Desktop\New Folder\hba_project_working\XNA\HeroBattleArena\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\a10siman\Desktop\gdf\Xna\HeroBattleArena\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Hjalle\Desktop\HBA XNA\XNA\HeroBattleArena\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\b10chrhj\Desktop\XNA\HeroBattleArena\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\b10chrhj\Desktop\XNA\HeroBattleArena\HeroBattleArena\Content\obj\x86\Debug\Audio\Waves\HBA_XACT.xml
+C:\Users\LuktarSmör\Desktop\earlier BHA\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\LuktarSmör\Desktop\earlier BHA\HeroBattleArena\Content\obj\x86\Debug\Audio\Waves\HBA_XACT.xml
+C:\Users\LuktarSmör\Desktop\New folder\earlier BHA\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\LuktarSmör\Desktop\New folder\earlier BHA\HeroBattleArena\Content\obj\x86\Debug\Audio\Waves\HBA_XACT.xml
+C:\Users\LuktarSmör\Desktop\New folder\XNA\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\LuktarSmör\Desktop\New folder\XNA\HeroBattleArena\Content\obj\x86\Debug\Audio\Waves\HBA_XACT.xml
+C:\Users\LuktarSmör\Desktop\HBA INNAN SVN REFORM\XNA 3.0\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\LuktarSmör\Desktop\HBA INNAN SVN REFORM\XNA 3.0\HeroBattleArena\Content\obj\x86\Debug\Audio\Waves\HBA_XACT.xml
+C:\Users\LuktarSmör\Desktop\Hero Battle Arena SVN\XNA 3.0\HeroBattleArena\Content\obj\x86\Debug\ResolveAssemblyReference.cache

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Map background="Maps\SacredChamber\background">
+  <Prefabs>
+    <!-- Chests -->
+    <Obstacle tag="open_chest">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="75">Maps\SacredChamber\Open_Chest</Texture>
+      <AABB minX="0" minY="15" maxX="57" maxY="132" />
+    </Obstacle>
+    <Obstacle tag="closed_chest">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="75">Maps\SacredChamber\Closed_Chest</Texture>
+      <AABB minX="0" minY="15" maxX="61" maxY="133" />
+    </Obstacle>
+    <!-- Walls -->
+    <Obstacle tag="upper_wall">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="85">Maps\SacredChamber\Upper_Wall</Texture>
+      <AABB minX="0" minY="80" maxX="57" maxY="100" />
+      <AABB minX="117" minY="80" maxX="260" maxY="100" />
+      <AABB minX="320" minY="80" maxX="386" maxY="100" />
+    </Obstacle>
+    <Obstacle tag="lower_wall">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="85">Maps\SacredChamber\Lower_Wall</Texture>
+      <AABB minX="0" minY="79" maxX="154" maxY="99" />
+      <AABB minX="220" minY="79" maxX="369" maxY="99" />
+    </Obstacle>
+    <!-- Animated fire -->
+    <!--
+    <Obstacle tag="fire">
+      <Texture layer="2" offsetX="0" offsetY="0" depth="145">Maps\SacredChamber\Aztec_Fire</Texture>
+      <AnimationCycles frameRate="8" frameWidth="100" frameHeight="200" framesX="4" framesY="1">
+        <Cycle startX="0" startY="0" numFrames="4"/>
+      </AnimationCycles>
+      <AABB minX="0" minY="100" maxX="100" maxY="200" />
+    </Obstacle>
+    -->
+    <!-- Animated floor -->
+    <Obstacle tag="floor">
+      <Texture layer="1" offsetX="0" offsetY="0" depth="0">Maps\SacredChamber\Aztec_Floor_Animation</Texture>
+    </Obstacle>
+
+    <!-- Animated floor
+    <Obstacle tag="floor">
+      <Texture layer="1" offsetX="0" offsetY="0" depth="0">Maps\SacredChamber\Aztec_Floor_Animation</Texture>
+      <AnimationCycles frameRate="8" frameWidth="360" frameHeight="360" framesX="3" framesY="2">
+        <Cycle startX="0" startY="0" numFrames="6"/>
+      </AnimationCycles>
+    </Obstacle> -->
+  </Prefabs>
+
+  <Objects>
+    <Obstacle tag="open_chest"    x="910" y="300" />
+    <Obstacle tag="closed_chest"  x="65" y="300" />
+    <Obstacle tag="upper_wall"    x="320" y="5" />
+    <Obstacle tag="lower_wall"    x="304" y="594" />
+    <Obstacle tag="floor"         x="336" y="190" />
+
+    <Obstacle tag="SacredTorch" x="185" y="76" />
+    <Obstacle tag="SacredTorch" x="730" y="76" />
+    <Obstacle tag="SacredTorch" x="183" y="362" />
+    <Obstacle tag="SacredTorch" x="730" y="362" />
+  </Objects>
+
+  <SpawnPoints>
+    <SpawnPoint x="300" y="250" />
+    <SpawnPoint x="700" y="250" />
+    <SpawnPoint x="300" y="500" />
+    <SpawnPoint x="700" y="500" />
+  </SpawnPoints>
+</Map>

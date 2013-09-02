@@ -1,0 +1,5 @@
+Content\Audio\Waves\HBA_XACT.xgs
+Content\Audio\Waves\Wave Bank.xwb
+Content\Audio\Waves\Music Bank.xwb
+Content\Audio\Waves\Sound Bank.xsb
+Content\Audio\Waves\Music Sound Bank.xsb

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Save>
+  <ZombieUnlocked value ="false"></ZombieUnlocked>
+  <SoundVolume value ="0,7"></SoundVolume>
+  <MusicVolume value ="0,7"></MusicVolume>
+  <ScoreList>
+    <List
+    name ="AAA"
+    wave ="0"
+    total_score ="0"
+    heroes ="0"
+    kills ="0"
+  />
+    <List
+    name ="AAA"
+    wave ="0"
+    total_score ="0"
+    heroes ="0"
+    kills ="0"
+  />
+    <List
+    name ="AAA"
+    wave ="0"
+    total_score ="0"
+    heroes ="0"
+    kills ="0"
+  />
+    <List
+    name ="AAA"
+    wave ="0"
+    total_score ="0"
+    heroes ="0"
+    kills ="0"
+  />
+    <List
+    name ="AAA"
+    wave ="0"
+    total_score ="0"
+    heroes ="0"
+    kills ="0"
+  />
+  </ScoreList>
+  <ScoreList>
+    <List
+    name ="BBB"
+    wave ="0"
+    total_score ="0"
+    heroes ="00"
+    kills ="0"
+  />
+    <List
+    name ="BBB"
+    wave ="0"
+    total_score ="0"
+    heroes ="00"
+    kills ="0"
+  />
+    <List
+    name ="BBB"
+    wave ="0"
+    total_score ="0"
+    heroes ="00"
+    kills ="0"
+  />
+    <List
+    name ="BBB"
+    wave ="0"
+    total_score ="0"
+    heroes ="00"
+    kills ="0"
+  />
+    <List
+    name ="BBB"
+    wave ="0"
+    total_score ="0"
+    heroes ="00"
+    kills ="0"
+  />
+  </ScoreList>
+  <ScoreList>
+    <List
+     name ="CCC"
+     wave ="0"
+     total_score ="0"
+     heroes ="000"
+     kills ="0"
+  />
+    <List
+     name ="CCC"
+     wave ="0"
+     total_score ="0"
+     heroes ="000"
+     kills ="0"
+  />
+    <List
+     name ="CCC"
+     wave ="0"
+     total_score ="0"
+     heroes ="000"
+     kills ="0"
+  />
+    <List
+      name ="CCC"
+      wave ="0"
+      total_score ="0"
+      heroes ="000"
+      kills ="0"
+  />
+    <List
+     name ="CCC"
+     wave ="0"
+     total_score ="0"
+     heroes ="000"
+     kills ="0"
+  />
+  </ScoreList>
+  <ScoreList>
+    <List
+     name ="DDD"
+     wave ="0"
+     total_score ="0"
+     heroes ="0000"
+     kills ="0"
+  />
+    <List
+      name ="DDD"
+      wave ="0"
+      total_score ="0"
+      heroes ="0000"
+      kills ="0"
+  />
+    <List
+     name ="DDD"
+     wave ="0"
+     total_score ="0"
+     heroes ="0000"
+     kills ="0"
+  />
+    <List
+     name ="DDD"
+     wave ="0"
+     total_score ="0"
+     heroes ="0000"
+     kills ="0"
+  />
+    <List
+     name ="DDD"
+     wave ="0"
+     total_score ="0"
+     heroes ="0000"
+     kills ="0"
+  />
+  </ScoreList>
+</Save>
+
+

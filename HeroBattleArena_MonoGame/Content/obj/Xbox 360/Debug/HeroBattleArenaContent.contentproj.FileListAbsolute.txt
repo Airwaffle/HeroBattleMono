@@ -1,0 +1,2 @@
+C:\Users\SuperSmith\Desktop\Hba\XNA 4.0\HeroBattleArena\Content\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+C:\Users\SuperSmith\Desktop\Hba\XNA 4.0\HeroBattleArena\Content\obj\Xbox 360\Debug\Audio\Waves\HBA_XACT.xml

@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Level>
+    <!-- Unsorted -->
+    <Graphics tag="damage_indicator" path="Effects\damage_indicator" />
+    <Graphics tag="shadow_below_unit" path="Effects\shadow_Final" />
+    <Graphics tag="introsplash" path="Menus\introsplash" />
+    <Graphics tag="intrologo" path="Menus\Main\intrologo" />
+    <Graphics tag="life_bar" path="GUI\Life_bar" />
+    <Graphics tag="mana_bar" path="GUI\Mana_bar" />
+    
+    <!-- Debug -->
+    <Graphics tag="debug_feet" path="Debug\feet_collision" />
+    <Graphics tag="debug_spawnpoint" path="Debug\spawnpoint" />
+    <Graphics tag="debug_boundingbox" path="Debug\entity_collision" />
+
+    <!-- Powerups -->
+    <Graphics tag="powerup_damage" path="Powerups\DMGUP" />
+    <Graphics tag="powerup_slowdown" path="Powerups\slowdown" />
+    
+    <!-- Main Menu -->
+    <Graphics tag="menu_main_select" path="Menus\Main\text_select" />
+    <Graphics tag="menu_main_noselect" path="Menus\Main\text_noselect" />
+    
+    <!-- Credits Screen -->
+    <Graphics tag="credits_logo" path="Menus\Credits\cred_logo" />
+    <Graphics tag="credits_jakob" path="Menus\Credits\cred01" />
+    <Graphics tag="credits_joacim" path="Menus\Credits\cred02" />
+    <Graphics tag="credits_william" path="Menus\Credits\cred03" />
+    <Graphics tag="credits_karl" path="Menus\Credits\cred04" />
+    <Graphics tag="credits_gustav" path="Menus\Credits\cred05" />
+    <Graphics tag="credits_olle" path="Menus\Credits\cred06" />
+    <Graphics tag="credits_Kris" path="Menus\Credits\cred07" />
+    <Graphics tag="credits_emanuel" path="Menus\Credits\cred08" />
+    <Graphics tag="credits_johan" path="Menus\Credits\cred10" />
+    <Graphics tag="credits_filip" path="Menus\Credits\cred11" />
+    <Graphics tag="credits_chris" path="Menus\Credits\cred12" />
+    <Graphics tag="credits_simon" path="Menus\Credits\cred13" />
+    <Graphics tag="credits_marcus" path="Menus\Credits\cred14" />
+    <Graphics tag="credits_hitmonlee" path="Menus\Credits\cred15_hitmonlee" />
+    
+    <!-- Mode Menu -->
+    <Graphics tag="menu_mode_select" path="Menus\Mode\text_select" />
+    <Graphics tag="menu_mode_noselect" path="Menus\Mode\text_noselect" />
+    
+    <!-- Character Selection Menu -->
+    <Graphics tag="menu_player_plate" path="Menus\CharacterSelection\Player_plate" />
+    <Graphics tag="menu_player_blue_plate" path="Menus\CharacterSelection\team_blue" />
+    <Graphics tag="menu_player_red_plate" path="Menus\CharacterSelection\team_red" />
+    <Graphics tag="arthur_stats" path="Menus\CharacterSelection\Arthur_Stats" />
+    <Graphics tag="soldier_stats" path="Menus\CharacterSelection\Soldier_Stats" />
+    <Graphics tag="aztek_stats" path="Menus\CharacterSelection\Aztec_Stats" />
+    <Graphics tag="nano_stats" path="Menus\CharacterSelection\Nano_Stats" />
+    <Graphics tag="zombie_stats" path="Menus\CharacterSelection\Zombie_Stats" />
+    <Graphics tag="menu_port_sm_arthur" path="Menus\CharacterSelection\character_plate_arthur" />
+    <Graphics tag="menu_port_arthur" path="Menus\CharacterSelection\player_plate_portrait_arthur" />
+    <Graphics tag="menu_port_sm_soldier" path="Menus\CharacterSelection\character_plate_soldier" />
+    <Graphics tag="menu_port_soldier" path="Menus\CharacterSelection\player_plate_portrait_sgt.stryker" />
+    <Graphics tag="menu_port_sm_aztec" path="Menus\CharacterSelection\character_plate_queen" />
+    <Graphics tag="menu_port_aztec" path="Menus\CharacterSelection\ppp_queen_quentzali" />
+    <Graphics tag="menu_port_sm_mage" path="Menus\CharacterSelection\character_plate_nano" />
+    <Graphics tag="menu_port_mage" path="Menus\CharacterSelection\player_plate_portrait_NANO" />
+    <Graphics tag="menu_port_sm_unknown" path="Menus\CharacterSelection\character_plate_unknown" />
+    <Graphics tag="menu_port_unknown" path="Menus\CharacterSelection\player_plate_portrait_unknown" />
+    <Graphics tag="menu_port_sm_unknown2" path="Menus\CharacterSelection\character_plate_unknown2" />
+    <Graphics tag="menu_port_unknown2" path="Menus\CharacterSelection\player_plate_portrait_unknown2" />
+    <Graphics tag="menu_select_player1" path="Menus\CharacterSelection\p1" />
+    <Graphics tag="menu_select_player2" path="Menus\CharacterSelection\p2" />
+    <Graphics tag="menu_select_player3" path="Menus\CharacterSelection\p3" />
+    <Graphics tag="menu_select_player4" path="Menus\CharacterSelection\p4" />
+    <Graphics tag="Player_1_color" path="Menus\CharacterSelection\Player_1_color" />
+    <Graphics tag="Player_2_color" path="Menus\CharacterSelection\Player_2_color" />
+    <Graphics tag="Player_3_color" path="Menus\CharacterSelection\Player_3_color" />
+    <Graphics tag="Player_4_color" path="Menus\CharacterSelection\Player_4_color" />
+    <Graphics tag="blue_marker" path="Menus\CharacterSelection\blue_marker" />
+    <Graphics tag="yellow_marker" path="Menus\CharacterSelection\yellow_marker" />
+    <Graphics tag="red_marker" path="Menus\CharacterSelection\red_marker" />
+    <Graphics tag="green_marker" path="Menus\CharacterSelection\green_marker" />
+    <Graphics tag="menu_port_locked" path="Menus\CharacterSelection\Unknown_charselect_plate_ex2"/>
+    <Graphics tag="menu_port_buy" path="Menus\CharacterSelection\Unknown_charselect_plate"/>
+    
+    <!-- Game options -->
+    <Graphics tag="game_options_background" path="Menus\GameOptions\Background" />
+    <Graphics tag="gray_arrow" path="Menus\GameOptions\hogerpil" />
+    <Graphics tag="gray_nr0" path="Menus\GameOptions\0" />
+    <Graphics tag="gray_nr1" path="Menus\GameOptions\1" />
+    <Graphics tag="gray_nr2" path="Menus\GameOptions\2" />
+    <Graphics tag="gray_nr3" path="Menus\GameOptions\3" />
+    <Graphics tag="gray_nr4" path="Menus\GameOptions\4" />
+    <Graphics tag="gray_nr5" path="Menus\GameOptions\5" />
+    <Graphics tag="gray_nr6" path="Menus\GameOptions\6" />
+    <Graphics tag="gray_nr7" path="Menus\GameOptions\7" />
+    <Graphics tag="gray_nr8" path="Menus\GameOptions\8" />
+    <Graphics tag="gray_nr9" path="Menus\GameOptions\9" />
+    <Graphics tag="gray_done" path="Menus\GameOptions\done" />
+    <Graphics tag="gray_frag" path="Menus\GameOptions\frag" />
+    <Graphics tag="gray_survivor" path="Menus\GameOptions\survivor" />
+    <Graphics tag="gray_on" path="Menus\GameOptions\on" />
+    <Graphics tag="gray_off" path="Menus\GameOptions\off" />
+    <Graphics tag="gray_friendlyfire" path="Menus\GameOptions\friendlyfire" />
+    <Graphics tag="gray_gameoptions" path="Menus\GameOptions\gameoptions" />
+    <Graphics tag="gray_separatelives" path="Menus\GameOptions\separatelives" />
+    <Graphics tag="gray_powerups" path="Menus\GameOptions\powerups" />
+    <Graphics tag="gray_musicvolume" path="Menus\GameOptions\TEXT_musicvolume" />
+    <Graphics tag="gray_soundvolume" path="Menus\GameOptions\soundvolume" />
+    
+    <!-- Map Selection -->
+    <Graphics tag="camelot_square_map" path="Menus\MapSelection\camelot_square" />
+    <Graphics tag="checkpoint_map" path="Menus\MapSelection\checkpoint" />
+    <Graphics tag="sacred_chamber_map" path="Menus\MapSelection\xclass_cruiser" />
+    <Graphics tag="xclass_cruiser_map" path="Menus\MapSelection\sacred_chamber" />
+
+    <!-- Practice Mode -->
+    <Graphics tag="avatar_ready" path="Menus\Practice\practice_avatar_ready" />
+    <Graphics tag="avatar_start" path="Menus\Practice\practice_avatar_startbutton" />
+    <Graphics tag="practice_main" path="Menus\Practice\practice_main" />
+    <Graphics tag="practice_start" path="Menus\Practice\practice_startplay" />
+    <Graphics tag="practice_strip" path="Menus\Practice\practice_strip" />
+    
+    <!-- Tutorial Screen -->
+    <Graphics tag="arthur_tutorial" path="Menus\Tutorial\arthurtut" />
+    <Graphics tag="aztek_tutorial" path="Menus\Tutorial\aztektut" />
+    <Graphics tag="nano_tutorial" path="Menus\Tutorial\nanotut" />
+    <Graphics tag="soldier_tutorial" path="Menus\Tutorial\soldiertut" />
+    <Graphics tag="vanster_pil" path="Menus\Tutorial\vansterpil" />
+    <Graphics tag="hoger_pil" path="Menus\Tutorial\hogerpil" />
+    <Graphics tag="tva_pil" path="Menus\Tutorial\tvapil" />
+    
+    <Graphics tag="character_plate" path="Menus\Tutorial2\tutorial_char_plate" />
+    <Graphics tag="attack_plate" path="Menus\Tutorial2\attack_plate" />
+    <Graphics tag="attack_description_plate" path="Menus\Tutorial2\attack_description_plate" />
+    <Graphics tag="unavailible_tutorial" path="Menus\Tutorial2\buytounlock"/>
+    
+    <Graphics tag="tutorial_text" path="Menus\Tutorial2\tutorial_head" />
+    <Graphics tag="xbox_controller" path="Menus\Tutorial2\controller_main" />
+    <Graphics tag="l_trigger" path="Menus\Tutorial2\L_bump" />
+    <Graphics tag="r_trigger" path="Menus\Tutorial2\R_bump" />
+    <Graphics tag="a_button_glow" path="Menus\Tutorial2\A_glow" />
+    <Graphics tag="b_button_glow" path="Menus\Tutorial2\B_glow" />
+    <Graphics tag="x_button_glow" path="Menus\Tutorial2\X_glow" />
+    <Graphics tag="y_button_glow" path="Menus\Tutorial2\Y_glow" />
+    <Graphics tag="nano_name" path="Menus\Tutorial2\nano" />
+    <Graphics tag="arthur_name" path="Menus\Tutorial2\arthur" />
+    <Graphics tag="stryker_name" path="Menus\Tutorial2\stryker" />
+    <Graphics tag="zombie_name" path="Menus\Tutorial2\zombie" />
+    <Graphics tag="quetzali_name" path="Menus\Tutorial2\quetzali" />
+    <Graphics tag="nano_not_selected" path="Menus\Tutorial2\nano_noselect" />
+    <Graphics tag="arthur_not_selected" path="Menus\Tutorial2\arthur_noselect" />
+    <Graphics tag="stryke_not_selected" path="Menus\Tutorial2\stryker_noselect" />
+    <Graphics tag="zombie_not_selected" path="Menus\Tutorial2\zomb_noselect" />
+    <Graphics tag="quetzali_not_selected" path="Menus\Tutorial2\quetz_noselect" />
+    
+    <Graphics tag="B_arthur_attack" path="Menus\Tutorial2\Attacks\Arthur\B_magic_shield" />
+    <Graphics tag="X_arthur_attack" path="Menus\Tutorial2\Attacks\Arthur\X_silence" />
+    <Graphics tag="Y_arthur_attack" path="Menus\Tutorial2\Attacks\Arthur\Y_laser_hold" />
+
+    <Graphics tag="B_stryker_attack" path="Menus\Tutorial2\Attacks\Stryker\B_sticky" />
+    <Graphics tag="X_stryker_attack" path="Menus\Tutorial2\Attacks\Stryker\X_lockon" />
+    <Graphics tag="Y_stryker_attack" path="Menus\Tutorial2\Attacks\Stryker\Y_Flash" />
+
+    <Graphics tag="B_quetzali_attack" path="Menus\Tutorial2\Attacks\Quetzali\B_spirit" />
+    <Graphics tag="X_quetzali_attack" path="Menus\Tutorial2\Attacks\Quetzali\X_javelin" />
+    <Graphics tag="Y_quetzali_attack" path="Menus\Tutorial2\Attacks\Quetzali\Y_flurry" />
+
+    <Graphics tag="B_nano_attack" path="Menus\Tutorial2\Attacks\Nano\B_shockwave" />
+    <Graphics tag="X_nano_attack" path="Menus\Tutorial2\Attacks\Nano\X_celerity" />
+    <Graphics tag="Y_nano_attack" path="Menus\Tutorial2\Attacks\Nano\Y_microbots" />
+
+    <Graphics tag="B_zombie_attack" path="Menus\Tutorial2\Attacks\Zombie\B_summon" />
+    <Graphics tag="X_zombie_attack" path="Menus\Tutorial2\Attacks\Zombie\X_grave" />
+    <Graphics tag="Y_zombie_attack" path="Menus\Tutorial2\Attacks\Zombie\Y_vamp" />
+
+    <Graphics tag="controller_Lstick" path="Menus\Tutorial2\controller_Lstick" />
+    <Graphics tag="controller_Rstick" path="Menus\Tutorial2\controller_Rstick" />
+    
+    <Graphics tag="arthur_laser_description" path="Menus\Tutorial2\Descriptions\text_arthur_laser" />
+    <Graphics tag="arthur_shield_description" path="Menus\Tutorial2\Descriptions\text_arthur_magicshield" />
+    <Graphics tag="arthur_silence_description" path="Menus\Tutorial2\Descriptions\text_arthur_silence" />
+    <Graphics tag="stryker_flash_description" path="Menus\Tutorial2\Descriptions\text_stryker_flash" />
+    <Graphics tag="stryker_grenade_description" path="Menus\Tutorial2\Descriptions\text_stryker_sticky" />
+    <Graphics tag="stryker_lockon_description" path="Menus\Tutorial2\Descriptions\text_stryker_lockon" />
+    <Graphics tag="aztec_flurry_description" path="Menus\Tutorial2\Descriptions\text_quetz_flurry" />
+    <Graphics tag="aztec_slow_description" path="Menus\Tutorial2\Descriptions\text_quetz_javelin" />
+    <Graphics tag="aztec_shield_description" path="Menus\Tutorial2\Descriptions\text_quetz_spirit" />
+    <Graphics tag="nano_microbots_description" path="Menus\Tutorial2\Descriptions\text_nano_microbots" />
+    <Graphics tag="nano_shock_description" path="Menus\Tutorial2\Descriptions\text_nano_shock" />
+    <Graphics tag="nano_electic_description" path="Menus\Tutorial2\Descriptions\text_nano_celerity" />
+    <Graphics tag="zombie_dig_description" path="Menus\Tutorial2\Descriptions\text_zomb_dig" />
+    <Graphics tag="zombie_vampyric_description" path="Menus\Tutorial2\Descriptions\text_zomb_vamp" />
+    <Graphics tag="zombie_summon_description" path="Menus\Tutorial2\Descriptions\text_zomb_summon" />
+
+    <!-- Pause Menu -->
+    <Graphics tag="paus_background" path="Menus\PauseMenu\PausMENY" />
+    <Graphics tag="paus_change_map" path="Menus\PauseMenu\Change_map" />
+    <Graphics tag="paus_restart" path="Menus\PauseMenu\zomb_restart" />
+    <Graphics tag="paus_change_character" path="Menus\PauseMenu\Change_character" />
+    <Graphics tag="paus_quit_game" path="Menus\PauseMenu\Quit_game" />
+    <Graphics tag="paus_resume_game" path="Menus\PauseMenu\resume_game" />
+    <Graphics tag="paus_tutorial" path="Menus\PauseMenu\Change_character" />
+    <Graphics tag="paus_showtutorial" path="Menus\PauseMenu\showtutorial" />
+    
+    <!-- Movie Screen -->
+    <Graphics tag="load_arthur" path="Menus\Movie\arthur" />
+    <!--
+    <Graphics tag="load_stryker" path="Menus\Movie\stryker" />
+    <Graphics tag="load_quetzali" path="Menus\Movie\aztec" />
+    <Graphics tag="load_nano" path="Menus\Movie\mage" />
+    -->
+    <!-- Characters -->
+    <!--
+    <Graphics tag="arthur_sprite" path="Characters\Arthur\Sprite_Sheet_Arthur" />
+    <Graphics tag="arthur_sprite_v2" path="Characters\Arthur\Sprite_Sheet_Arthur_Green" />
+    <Graphics tag="arthur_sprite_v3" path="Characters\Arthur\Sprite_Sheet_Arthur_Red" />
+    <Graphics tag="arthur_sprite_v4" path="Characters\Arthur\Sprite_Sheet_Arthur_Brown" />
+
+    <Graphics tag="soldier_sprite" path="Characters\Stryker\Sprite_Sheet_Soldier" />
+    <Graphics tag="soldier_sprite_v2" path="Characters\Stryker\Sprite_Sheet_Soldier_Green" />
+    <Graphics tag="soldier_sprite_v3" path="Characters\Stryker\Sprite_Sheet_Soldier_Black" />
+    <Graphics tag="soldier_sprite_v4" path="Characters\Stryker\Sprite_Sheet_Soldier_Pink" />
+
+    <Graphics tag="aztec_sprite" path="Characters\Quentzali\Sprite_Sheet_Aztec" />
+    <Graphics tag="aztec_sprite_v2" path="Characters\Quentzali\sprite_sheet_aztec_green" />
+    <Graphics tag="aztec_sprite_v3" path="Characters\Quentzali\sprite_sheet_aztec_blue" />
+    <Graphics tag="aztec_sprite_v4" path="Characters\Quentzali\sprite_sheet_aztec_yellow" />
+
+    <Graphics tag="mage_sprite" path="Characters\Nano\Sprite_Sheet_Mage" />
+    <Graphics tag="mage_sprite_v2" path="Characters\Nano\Sprite_Sheet_Mage_Green" />
+    <Graphics tag="mage_sprite_v3" path="Characters\Nano\Sprite_Sheet_Mage_Purple" />
+    <Graphics tag="mage_sprite_v4" path="Characters\Nano\Sprite_Sheet_Mage_Gul" />
+
+    <Graphics tag="zombie_sprite" path="Characters\Zombie\Sprite_Sheet_Zombie" />
+    <Graphics tag="zombie_sprite2" path="Characters\Zombie\Sprite_Sheet_Zombie_2" />
+    <Graphics tag="zombie_sprite3" path="Characters\Zombie\Sprite_Sheet_Zombie_3" />
+    <Graphics tag="zombie_sprite4" path="Characters\Zombie\Sprite_Sheet_Zombie_4" />
+    <Graphics tag="zombie_sprite_minion" path="Characters\Zombie\Sprite_Sheet_Zombie_Minion" />
+
+    <Graphics tag="boss_sprite" path="Characters\ZombieBoss\BossSheet" />
+       -->
+    
+    <!-- Portraits -->
+    <Graphics tag="arthur_portrait" path="Characters\Portraits\arthur_gui" />
+    <Graphics tag="nano_portrait" path="Characters\Portraits\nano_gui" />
+    <Graphics tag="stryker_portrait" path="Characters\Portraits\stryker_gui" />
+    <Graphics tag="aztek_portrait" path="Characters\Portraits\aztek_gui" />
+    <Graphics tag="zombie_portrait" path="Characters\Portraits\zombie_gui" />
+    <Graphics tag="template_portrait" path="Characters\Portraits\template_gui" />
+    <Graphics tag="template2_portrait" path="Characters\Portraits\template_gui2" />
+
+    <!-- Win Screen -->
+    <Graphics tag="win_arthur_big" path="GUI\Arthur_potrait_win" />
+    <Graphics tag="win_arthur_small" path="GUI\Arthur_potrait_lose" />
+    <Graphics tag="win_soldier_big" path="GUI\Soldier_potrait_win" />
+    <Graphics tag="win_soldier_small" path="GUI\soldier_portrait_lose" />
+    <Graphics tag="win_aztec_big" path="GUI\aztec_potrait_win" />
+    <Graphics tag="win_aztec_small" path="GUI\aztec_potrait_lose" />
+    <Graphics tag="win_nano_big" path="GUI\NAno_potrait_win" />
+    <Graphics tag="win_nano_small" path="GUI\Nano_potrait_lost" />
+    <Graphics tag="win_zombie_big" path="GUI\Zombie_potrait_win" />
+    <Graphics tag="win_zombie_small" path="GUI\Zombie_portrait_lose" />
+    
+    <!-- Score Screen -->
+    <Graphics tag="score_0" path="Menus\ScoreScreen\score_0" />
+    <Graphics tag="score_1" path="Menus\ScoreScreen\score_1" />
+    <Graphics tag="score_2" path="Menus\ScoreScreen\score_2" />
+    <Graphics tag="score_3" path="Menus\ScoreScreen\score_3" />
+    <Graphics tag="score_4" path="Menus\ScoreScreen\score_4" />
+    <Graphics tag="score_5" path="Menus\ScoreScreen\score_5" />
+    <Graphics tag="score_6" path="Menus\ScoreScreen\score_6" />
+    <Graphics tag="score_7" path="Menus\ScoreScreen\score_7" />
+    <Graphics tag="score_8" path="Menus\ScoreScreen\score_8" />
+    <Graphics tag="score_9" path="Menus\ScoreScreen\score_9" />
+    <Graphics tag="score_negative" path="Menus\ScoreScreen\score_minus" />
+    <Graphics tag="score_icon_arthur" path="Menus\ScoreScreen\icon_arth" />
+    <Graphics tag="score_icon_stryker" path="Menus\ScoreScreen\icon_stryk" />
+    <Graphics tag="score_icon_nano" path="Menus\ScoreScreen\icon_nano" />
+    <Graphics tag="score_icon_zombie" path="Menus\ScoreScreen\icon_zomb" />
+    <Graphics tag="score_icon_aztec" path="Menus\ScoreScreen\icon_quet" />
+    <Graphics tag="score_overlay" path="Menus\ScoreScreen\scoreboard_overlay" />
+    <Graphics tag="score_underlay" path="Menus\ScoreScreen\scoreboard_underlay" />
+    <Graphics tag="score_team_blue" path="Menus\ScoreScreen\team_blue" />
+    <Graphics tag="score_team_red" path="Menus\ScoreScreen\team_red" />
+    <Graphics tag="score_death" path="Menus\ScoreScreen\text_death" />
+    <Graphics tag="score_kill" path="Menus\ScoreScreen\text_kills" />
+    <Graphics tag="score_player" path="Menus\ScoreScreen\text_player" />
+    <Graphics tag="score_score" path="Menus\ScoreScreen\text_score" />
+    <Graphics tag="score_team" path="Menus\ScoreScreen\text_team" />
+    <Graphics tag="score_wave" path="Menus\ScoreScreen\text_wave" />
+    <Graphics tag="score_winner" path="Menus\ScoreScreen\winner_icon" />
+    <Graphics tag="score_letters" path="Menus\ScoreScreen\letters" />
+    <Graphics tag="score_letters_win" path="Menus\ScoreScreen\letters_yellow" />
+    <Graphics tag="transparent_black" path="Menus\transparentBlack" />
+    
+    <!-- Ability Icons -->
+    <Graphics tag="gui_silence_icon" path="Icons\Arthur_Silence_Shine" />
+    <Graphics tag="gui_counterteleport_icon" path="Icons\Arthur_Magic_Shield" />
+    <Graphics tag="gui_laserblade_icon" path="Icons\Arthur_Lazer_Sword" />
+    <Graphics tag="gui_flashbang_icon" path="Icons\Soldier_Flashbang" />
+    <Graphics tag="gui_lockon_icon" path="Icons\Soldier_Lockon" />
+    <Graphics tag="gui_grenade_icon" path="Icons\Soldier_Granade" />
+    <Graphics tag="gui_ghostshield_icon" path="Icons\Aztec_Montazuma" />
+    <Graphics tag="gui_aztecspear_icon" path="Icons\Aztec_Javelin" />
+    <Graphics tag="gui_flurry_icon" path="Icons\Aztec_Flurry" />
+    <Graphics tag="gui_electriccelerity_icon" path="Icons\Nano_Selerity" />
+    <Graphics tag="gui_whirlwind_icon" path="Icons\Nano_Shockwave" />
+    <Graphics tag="gui_microbot_icon" path="Icons\Nano_Orbs" />
+    <Graphics tag="gui_gravedigger_icon" path="Icons\Zombie_Gravedigger" />
+    <Graphics tag="gui_summon_icon" path="Icons\Zombie_Summon" />
+    <Graphics tag="gui_vampyric_icon" path="Icons\Zombie_Vampyric" />  
+    
+    <!-- Arthur's Abilities -->
+    <Graphics tag="laser_blade" path="Characters\Arthur\Arthur_Beam" />
+    
+    <!-- Soldier's Abilities -->
+    <Graphics tag="projectile_bullet" path="Characters\Stryker\Bullet" />
+    <Graphics tag="projectile_grenade" path="Characters\Stryker\Granade_prop_Final" />
+    <Graphics tag="ability_lazer_seg" path="Characters\Stryker\Lock_On_Laser_Smaller" />
+    <Graphics tag="ability_lazer_aim" path="Characters\Stryker\Sikte" />
+
+    <!-- Quentzali's Abilities -->
+    <Graphics tag="aztec_ghost" path="Characters\Quentzali\Aztec_Ghost_Big" />
+    <Graphics tag="aztec_jawelin" path="Characters\Quentzali\aztec_spear" />
+
+
+    <!-- Mage's Abilities -->
+    <Graphics tag="Nano_shot" path="Characters\Nano\Future_Mage_Projectile" />
+    <Graphics tag="microbot_ball" path="Characters\Nano\Future_Mage_Microbot" />
+
+
+    <!-- Boss's Abilities -->
+    <Graphics tag="puke_laser" path="Characters\ZombieBoss\Boss_Beam" />
+    <Graphics tag="boss_bullet" path="Characters\ZombieBoss\Boss_Projectile" />
+
+    <!-- Effects -->
+    <Graphics tag="projectile_mage_hit_up" path="Effects\Future_Mage_Projectile_Hit_Up" />
+    <Graphics tag="projectile_mage_hit_left" path="Effects\Future_Mage_Projectile_Hit_Left" />
+    <Graphics tag="projectile_mage_hit_right" path="Effects\Future_Mage_Projectile_Hit_Right" />
+    <Graphics tag="projectile_mage_hit_down" path="Effects\Future_Mage_Projectile_Hit_Down" />
+
+    <Graphics tag="flash_bang_effect" path="Effects\Soldier_Flash" />
+    <Graphics tag="Silence_Effect" path="Effects\Silence-Shine" />
+    <Graphics tag="Stunned_Effect" path="Effects\Stunned_Effect" />
+    <Graphics tag="Silenced_Effect" path="Effects\Silenced_Effect" />
+    <Graphics tag="Grenade_Explosion" path="Effects\Soldier_Explosion" />
+    <Graphics tag="lock_bomb" path="Effects\lock_bomb" />
+    <Graphics tag="General_Respawn" path="Effects\General_Respawn" />
+
+    <Graphics tag="ex_fight" path="Effects\Ex_Fight" />
+    <Graphics tag="ex_survive" path="Effects\Ex_Survive" />
+    <Graphics tag="ex_arthur_wins" path="Effects\Ex_Arthur_Wins" />
+    <Graphics tag="ex_stryker_wins" path="Effects\Ex_Stryker_Wins" />
+    <Graphics tag="ex_quertzali_wins" path="Effects\Ex_Quertzali_Wins" />
+    <Graphics tag="ex_nano_wins" path="Effects\Ex_Nano_Wins" />
+    <Graphics tag="ex_zombie_wins" path="Effects\Ex_Zombie_Wins" />
+    
+    <Graphics tag="ex_wave" path="Effects\wave" />
+    <Graphics tag="ex_wave0" path="Effects\wave_0" />
+    <Graphics tag="ex_wave1" path="Effects\wave_1" />
+    <Graphics tag="ex_wave2" path="Effects\wave_2" />
+    <Graphics tag="ex_wave3" path="Effects\wave_3" />
+    <Graphics tag="ex_wave4" path="Effects\wave_4" />
+    <Graphics tag="ex_wave5" path="Effects\wave_5" />
+    <Graphics tag="ex_wave6" path="Effects\wave_6" />
+    <Graphics tag="ex_wave7" path="Effects\wave_7" />
+    <Graphics tag="ex_wave8" path="Effects\wave_8" />
+    <Graphics tag="ex_wave9" path="Effects\wave_9" />
+    <Graphics tag="ex_wave_boss" path="Effects\boss_blinking" />
+
+    <Graphics tag="ex_unlocked_green" path="Effects\unlocked_green" />
+    <Graphics tag="ex_unlocked_red" path="Effects\unlocked_red" />
+
+    <!-- Special Obstacles -->
+    <Graphics tag="special_fire" path="Maps\SacredChamber\Aztec_Fire_Flame" />
+    <Graphics tag="special_fire_back" path="Maps\SacredChamber\Aztec_Fire_Back" />
+
+    <Graphics tag="stolpe_down_right" path="Maps\XClassCruiser\stolpe_down_right" />
+    <Graphics tag="stolpe_left" path="Maps\XClassCruiser\stolpe_left" />
+    <Graphics tag="stolpe_up" path="Maps\XClassCruiser\stolpe_up" />
+    <Graphics tag="stolpe_down_left" path="Maps\XClassCruiser\stolpe_down_left" />
+    <Graphics tag="stolpe_right" path="Maps\XClassCruiser\stolpe_right" />
+    <Graphics tag="stolpe_down" path="Maps\XClassCruiser\stolpe_down" />
+    <Graphics tag="fence_left_start" path="Maps\XClassCruiser\Fence\fence_left_start" />
+    <Graphics tag="fence_right_start" path="Maps\XClassCruiser\Fence\fence_right_start" />
+    <Graphics tag="fence_middle_1" path="Maps\XClassCruiser\Fence\fence_middle_1" />
+    <Graphics tag="fence_middle_3" path="Maps\XClassCruiser\Fence\fence_middle_3" />
+    <Graphics tag="fence_middle_4" path="Maps\XClassCruiser\Fence\fence_middle_4" />
+    <Graphics tag="fence_middle_5" path="Maps\XClassCruiser\Fence\fence_middle_5" />
+    <Graphics tag="fence_vert_1" path="Maps\XClassCruiser\Fence\fence_vert_1" />
+    <Graphics tag="fence_vert_2" path="Maps\XClassCruiser\Fence\fence_vert_2" />    
+  </Level>
+</XnaContent>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
