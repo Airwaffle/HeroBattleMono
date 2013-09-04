@@ -7,3 +7,13 @@ g:\users\super snabb disk\documents\visual studio 2010\Projects\HeroBattleArena_
 g:\users\super snabb disk\documents\visual studio 2010\Projects\HeroBattleArena_MonoGame\HeroBattleArena_MonoGame\bin\WindowsGL\Debug\Tao.Sdl.dll
 g:\users\super snabb disk\documents\visual studio 2010\Projects\HeroBattleArena_MonoGame\HeroBattleArena_MonoGame\obj\x86\Debug\HeroBattleArena_MonoGame.exe
 g:\users\super snabb disk\documents\visual studio 2010\Projects\HeroBattleArena_MonoGame\HeroBattleArena_MonoGame\obj\x86\Debug\HeroBattleArena_MonoGame.pdb
+G:\Users\SUPER SNABB DISK\Documents\Visual Studio 2010\HeroBattleMono\HeroBattleArena_MonoGame\obj\x86\Debug\HeroBattleArena_MonoGame.exe
+G:\Users\SUPER SNABB DISK\Documents\Visual Studio 2010\HeroBattleMono\HeroBattleArena_MonoGame\obj\x86\Debug\HeroBattleArena_MonoGame.pdb
+G:\Users\SUPER SNABB DISK\Documents\Visual Studio 2010\HeroBattleMono\HeroBattleArena_MonoGame\bin\WindowsGL\Debug\SDL.dll
+G:\Users\SUPER SNABB DISK\Documents\Visual Studio 2010\HeroBattleMono\HeroBattleArena_MonoGame\bin\WindowsGL\Debug\HeroBattleArena_MonoGame.exe
+G:\Users\SUPER SNABB DISK\Documents\Visual Studio 2010\HeroBattleMono\HeroBattleArena_MonoGame\bin\WindowsGL\Debug\HeroBattleArena_MonoGame.pdb
+G:\Users\SUPER SNABB DISK\Documents\Visual Studio 2010\HeroBattleMono\HeroBattleArena_MonoGame\bin\WindowsGL\Debug\Lidgren.Network.dll
+G:\Users\SUPER SNABB DISK\Documents\Visual Studio 2010\HeroBattleMono\HeroBattleArena_MonoGame\bin\WindowsGL\Debug\MonoGame.Framework.dll
+G:\Users\SUPER SNABB DISK\Documents\Visual Studio 2010\HeroBattleMono\HeroBattleArena_MonoGame\bin\WindowsGL\Debug\OpenTK.dll
+G:\Users\SUPER SNABB DISK\Documents\Visual Studio 2010\HeroBattleMono\HeroBattleArena_MonoGame\bin\WindowsGL\Debug\Tao.Sdl.dll
+G:\Users\SUPER SNABB DISK\Documents\Visual Studio 2010\HeroBattleMono\HeroBattleArena_MonoGame\obj\x86\Debug\HeroBattleArena_MonoGame.csprojResolveAssemblyReference.cache

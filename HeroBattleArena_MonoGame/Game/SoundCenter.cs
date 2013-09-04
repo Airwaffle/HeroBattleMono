@@ -5,6 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Media;
 
 namespace HeroBattleArena.Game
 {
@@ -83,8 +84,8 @@ namespace HeroBattleArena.Game
         private AudioEngine m_AudioEngine;
         private SoundBank m_SoundBank;
         private WaveBank m_WaveBank;
-        //private WaveBank m_MusicBank;
-        //private SoundBank m_MusicSoundBank;
+        private WaveBank m_MusicBank;
+        private SoundBank m_MusicSoundBank;
 
         private AudioCategory m_MusicSettings;
         private AudioCategory m_SoundSettings;
@@ -105,15 +106,17 @@ namespace HeroBattleArena.Game
         private float m_GrenadeBounceDelay = 0;
         private float m_GrenadeBounceMaxDelay = 0;
 
+        public SoundEffect backMusic;
+
         private void UpdateMusicVolume(){
             
             //if (masterMusicVolume < 0) masterMusicVolume = 0;
-            //  m_MusicSettings.SetVolume(masterMusicVolume);
+              //m_MusicSettings.SetVolume(masterMusicVolume);
         }
 
         private void UpdateSoundVolume(){
             //if (m_masterSoundVolume < 0) m_masterSoundVolume = 0;
-            //  m_SoundSettings.SetVolume(m_masterSoundVolume);
+             // m_SoundSettings.SetVolume(m_masterSoundVolume);
         }
 
         public SoundCenter()
@@ -144,11 +147,13 @@ namespace HeroBattleArena.Game
         {
             m_AudioEngine = new AudioEngine(@"Content\\Audio\\Waves\\HBA_XACT.xgs");
             m_WaveBank = new WaveBank(m_AudioEngine, @"Content\\Audio\\Waves\\Wave Bank.xwb");
-            //m_MusicBank = new WaveBank(m_AudioEngine, @"Content\\Audio\\Waves\\Music Bank.xwb");
+            m_MusicBank = new WaveBank(m_AudioEngine, @"Content\\Audio\\Waves\\Music Bank.xwb");
             m_SoundBank = new SoundBank(m_AudioEngine, @"Content\\Audio\\Waves\\Sound Bank.xsb");
-            //m_MusicSoundBank = new SoundBank(m_AudioEngine, @"Content\\Audio\\Waves\\Music Sound Bank.xsb");
+            m_MusicSoundBank = new SoundBank(m_AudioEngine, @"Content\\Audio\\Waves\\Music Sound Bank.xsb");
             m_MusicSettings = m_AudioEngine.GetCategory("Music");
             m_SoundSettings = m_AudioEngine.GetCategory("Default");
+
+            m_MusicSoundBank.PlayCue("MusicSlugwar");
         }
 
        
@@ -162,28 +167,26 @@ namespace HeroBattleArena.Game
         {
             newMusic = music;
 
-
             Console.WriteLine("Music: " + newMusic + " played.");
 
             switch (newMusic)
             {
-                case MusicNames.Slugwar:
-                    //m_MusicSoundBank.PlayCue("MusicSlugwar");
-                    break;
-                case MusicNames.RoadsideFragging:
-                    //m_MusicSoundBank.PlayCue("MusicRoadsideFragging");
 
-                    break;
-                case MusicNames.Charge:
-                    //m_MusicSoundBank.PlayCue("MusicCharge");
-
-                    break;
-                case MusicNames.Burial:
-                    //m_MusicSoundBank.PlayCue("MusicBurial");
-                    break;
-                case MusicNames.Ciak:
-                    //m_MusicSoundBank.PlayCue("MusicCiak");
-                break;
+                //case MusicNames.Slugwar:
+                //    m_MusicSoundBank.PlayCue("MusicSlugwar");
+                //    break;
+                //case MusicNames.RoadsideFragging:
+                //    m_MusicSoundBank.PlayCue("MusicRoadsideFragging");
+                //    break;
+                //case MusicNames.Charge:
+                //    m_MusicSoundBank.PlayCue("MusicCharge");
+                //    break;
+                //case MusicNames.Burial:
+                //    m_MusicSoundBank.PlayCue("MusicBurial");
+                //    break;
+                //case MusicNames.Ciak:
+                //    m_MusicSoundBank.PlayCue("MusicCiak");
+                //break;
             }
         }
 
